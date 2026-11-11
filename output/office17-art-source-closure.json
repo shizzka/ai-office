@@ -1,0 +1,3626 @@
+{
+  "frames_checked": 201,
+  "sources_checked": 47,
+  "failures": [],
+  "repairs": [],
+  "frames": [
+    {
+      "hero": "yarik",
+      "pose": "work",
+      "source": "hero-yarik-v3-1.png",
+      "claimed_bounds": [
+        174,
+        92,
+        699,
+        1269
+      ],
+      "component_bounds": [
+        174,
+        92,
+        699,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "walk",
+      "source": "hero-yarik-v3-1.png",
+      "claimed_bounds": [
+        919,
+        92,
+        1544,
+        1269
+      ],
+      "component_bounds": [
+        919,
+        92,
+        1544,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "stretch",
+      "source": "hero-yarik-v3-1.png",
+      "claimed_bounds": [
+        1690,
+        92,
+        2458,
+        1269
+      ],
+      "component_bounds": [
+        1690,
+        92,
+        2458,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "cup",
+      "source": "hero-yarik-v3-1.png",
+      "claimed_bounds": [
+        2493,
+        92,
+        2958,
+        1269
+      ],
+      "component_bounds": [
+        2493,
+        92,
+        2958,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "walk_1",
+      "source": "anim-yarik-1.png",
+      "claimed_bounds": [
+        53,
+        115,
+        632,
+        1250
+      ],
+      "component_bounds": [
+        53,
+        115,
+        632,
+        1250
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "walk_2",
+      "source": "anim-yarik-1.png",
+      "claimed_bounds": [
+        670,
+        115,
+        1101,
+        1243
+      ],
+      "component_bounds": [
+        670,
+        115,
+        1101,
+        1243
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "walk_3",
+      "source": "anim-yarik-1.png",
+      "claimed_bounds": [
+        1109,
+        115,
+        1653,
+        1250
+      ],
+      "component_bounds": [
+        1109,
+        115,
+        1653,
+        1250
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "walk_4",
+      "source": "anim-yarik-1.png",
+      "claimed_bounds": [
+        1683,
+        115,
+        2111,
+        1236
+      ],
+      "component_bounds": [
+        1683,
+        115,
+        2111,
+        1236
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "typing_1",
+      "source": "anim-yarik-1.png",
+      "claimed_bounds": [
+        2155,
+        115,
+        2596,
+        1243
+      ],
+      "component_bounds": [
+        2155,
+        115,
+        2596,
+        1243
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "typing_2",
+      "source": "anim-yarik-1.png",
+      "claimed_bounds": [
+        2653,
+        115,
+        3096,
+        1243
+      ],
+      "component_bounds": [
+        2653,
+        115,
+        3096,
+        1243
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-yarik.png",
+      "claimed_bounds": [
+        92,
+        138,
+        402,
+        743
+      ],
+      "component_bounds": [
+        92,
+        138,
+        402,
+        743
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-yarik.png",
+      "claimed_bounds": [
+        574,
+        137,
+        885,
+        743
+      ],
+      "component_bounds": [
+        574,
+        137,
+        885,
+        743
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "seated_back_think",
+      "source": "seated-back-yarik.png",
+      "claimed_bounds": [
+        1029,
+        134,
+        1356,
+        743
+      ],
+      "component_bounds": [
+        1029,
+        134,
+        1356,
+        743
+      ],
+      "closed": true
+    },
+    {
+      "hero": "yarik",
+      "pose": "seated_back_recline",
+      "source": "seated-back-yarik.png",
+      "claimed_bounds": [
+        1465,
+        141,
+        1860,
+        743
+      ],
+      "component_bounds": [
+        1465,
+        141,
+        1860,
+        743
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "work",
+      "source": "hero-leha-1.png",
+      "claimed_bounds": [
+        2463,
+        127,
+        3012,
+        1254
+      ],
+      "component_bounds": [
+        2463,
+        127,
+        3012,
+        1254
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "walk",
+      "source": "hero-leha-1.png",
+      "claimed_bounds": [
+        1031,
+        120,
+        1540,
+        1255
+      ],
+      "component_bounds": [
+        1031,
+        120,
+        1540,
+        1255
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "stretch",
+      "source": "hero-leha-1.png",
+      "claimed_bounds": [
+        1613,
+        116,
+        2258,
+        1254
+      ],
+      "component_bounds": [
+        1613,
+        116,
+        2258,
+        1254
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "cup",
+      "source": "hero-leha-1.png",
+      "claimed_bounds": [
+        2463,
+        127,
+        3012,
+        1254
+      ],
+      "component_bounds": [
+        2463,
+        127,
+        3012,
+        1254
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "walk_1",
+      "source": "walk2-leha-1.png",
+      "claimed_bounds": [
+        248,
+        128,
+        776,
+        1263
+      ],
+      "component_bounds": [
+        248,
+        128,
+        776,
+        1263
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "walk_2",
+      "source": "walk2-leha-1.png",
+      "claimed_bounds": [
+        1044,
+        120,
+        1445,
+        1256
+      ],
+      "component_bounds": [
+        1044,
+        120,
+        1445,
+        1256
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "walk_3",
+      "source": "walk2-leha-1.png",
+      "claimed_bounds": [
+        1736,
+        127,
+        2246,
+        1266
+      ],
+      "component_bounds": [
+        1736,
+        127,
+        2246,
+        1266
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "walk_4",
+      "source": "walk2-leha-1.png",
+      "claimed_bounds": [
+        2523,
+        125,
+        2925,
+        1256
+      ],
+      "component_bounds": [
+        2523,
+        125,
+        2925,
+        1256
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "typing_1",
+      "source": "anim-leha-2.png",
+      "claimed_bounds": [
+        2199,
+        126,
+        2646,
+        1254
+      ],
+      "component_bounds": [
+        2199,
+        126,
+        2646,
+        1254
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "typing_2",
+      "source": "anim-leha-2.png",
+      "claimed_bounds": [
+        2673,
+        126,
+        3140,
+        1254
+      ],
+      "component_bounds": [
+        2673,
+        126,
+        3140,
+        1254
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-leha.png",
+      "claimed_bounds": [
+        94,
+        139,
+        398,
+        741
+      ],
+      "component_bounds": [
+        94,
+        139,
+        398,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-leha.png",
+      "claimed_bounds": [
+        581,
+        139,
+        886,
+        741
+      ],
+      "component_bounds": [
+        581,
+        139,
+        886,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "seated_back_think",
+      "source": "seated-back-leha.png",
+      "claimed_bounds": [
+        1033,
+        139,
+        1358,
+        741
+      ],
+      "component_bounds": [
+        1033,
+        139,
+        1358,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "leha",
+      "pose": "seated_back_recline",
+      "source": "seated-back-leha.png",
+      "claimed_bounds": [
+        1477,
+        153,
+        1861,
+        741
+      ],
+      "component_bounds": [
+        1477,
+        153,
+        1861,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "work",
+      "source": "hero-asya-1.png",
+      "claimed_bounds": [
+        938,
+        129,
+        1490,
+        1245
+      ],
+      "component_bounds": [
+        938,
+        129,
+        1490,
+        1245
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "walk",
+      "source": "hero-asya-1.png",
+      "claimed_bounds": [
+        938,
+        129,
+        1490,
+        1245
+      ],
+      "component_bounds": [
+        938,
+        129,
+        1490,
+        1245
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "stretch",
+      "source": "hero-asya-1.png",
+      "claimed_bounds": [
+        1640,
+        119,
+        2390,
+        1255
+      ],
+      "component_bounds": [
+        1640,
+        119,
+        2390,
+        1255
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "cup",
+      "source": "hero-asya-1.png",
+      "claimed_bounds": [
+        938,
+        129,
+        1490,
+        1245
+      ],
+      "component_bounds": [
+        938,
+        129,
+        1490,
+        1245
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "walk_1",
+      "source": "anim-asya-1.png",
+      "claimed_bounds": [
+        59,
+        128,
+        534,
+        1257
+      ],
+      "component_bounds": [
+        59,
+        128,
+        534,
+        1257
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "walk_2",
+      "source": "anim-asya-1.png",
+      "claimed_bounds": [
+        571,
+        128,
+        1036,
+        1257
+      ],
+      "component_bounds": [
+        571,
+        128,
+        1036,
+        1257
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "walk_3",
+      "source": "anim-asya-1.png",
+      "claimed_bounds": [
+        1075,
+        128,
+        1560,
+        1247
+      ],
+      "component_bounds": [
+        1075,
+        128,
+        1560,
+        1247
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "walk_4",
+      "source": "anim-asya-1.png",
+      "claimed_bounds": [
+        1570,
+        128,
+        2035,
+        1247
+      ],
+      "component_bounds": [
+        1570,
+        128,
+        2035,
+        1247
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "typing_1",
+      "source": "anim-asya-1.png",
+      "claimed_bounds": [
+        2084,
+        109,
+        2569,
+        1258
+      ],
+      "component_bounds": [
+        2084,
+        109,
+        2569,
+        1258
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "typing_2",
+      "source": "anim-asya-1.png",
+      "claimed_bounds": [
+        2620,
+        109,
+        3106,
+        1258
+      ],
+      "component_bounds": [
+        2620,
+        109,
+        3106,
+        1258
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-asya.png",
+      "claimed_bounds": [
+        98,
+        110,
+        410,
+        748
+      ],
+      "component_bounds": [
+        98,
+        110,
+        410,
+        748
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-asya.png",
+      "claimed_bounds": [
+        570,
+        117,
+        887,
+        748
+      ],
+      "component_bounds": [
+        570,
+        117,
+        887,
+        748
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "seated_back_think",
+      "source": "seated-back-asya.png",
+      "claimed_bounds": [
+        1032,
+        110,
+        1379,
+        748
+      ],
+      "component_bounds": [
+        1032,
+        110,
+        1379,
+        748
+      ],
+      "closed": true
+    },
+    {
+      "hero": "asya",
+      "pose": "seated_back_recline",
+      "source": "seated-back-asya.png",
+      "claimed_bounds": [
+        1470,
+        148,
+        1862,
+        748
+      ],
+      "component_bounds": [
+        1470,
+        148,
+        1862,
+        748
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "work",
+      "source": "hero-ivanych-1.png",
+      "claimed_bounds": [
+        2421,
+        139,
+        3016,
+        1319
+      ],
+      "component_bounds": [
+        2421,
+        139,
+        3016,
+        1319
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "walk",
+      "source": "hero-ivanych-1.png",
+      "claimed_bounds": [
+        883,
+        139,
+        1512,
+        1316
+      ],
+      "component_bounds": [
+        883,
+        139,
+        1512,
+        1316
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "stretch",
+      "source": "hero-ivanych-1.png",
+      "claimed_bounds": [
+        1571,
+        40,
+        2321,
+        1319
+      ],
+      "component_bounds": [
+        1571,
+        40,
+        2321,
+        1319
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "cup",
+      "source": "hero-ivanych-1.png",
+      "claimed_bounds": [
+        2421,
+        139,
+        3016,
+        1319
+      ],
+      "component_bounds": [
+        2421,
+        139,
+        3016,
+        1319
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "walk_1",
+      "source": "anim-ivanych-2.png",
+      "claimed_bounds": [
+        23,
+        124,
+        579,
+        1304
+      ],
+      "component_bounds": [
+        23,
+        124,
+        579,
+        1304
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "walk_2",
+      "source": "anim-ivanych-2.png",
+      "claimed_bounds": [
+        560,
+        113,
+        1114,
+        1275
+      ],
+      "component_bounds": [
+        560,
+        113,
+        1114,
+        1275
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "walk_3",
+      "source": "anim-ivanych-2.png",
+      "claimed_bounds": [
+        1054,
+        124,
+        1612,
+        1304
+      ],
+      "component_bounds": [
+        1054,
+        124,
+        1612,
+        1304
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "walk_4",
+      "source": "anim-ivanych-2.png",
+      "claimed_bounds": [
+        1606,
+        125,
+        1997,
+        1276
+      ],
+      "component_bounds": [
+        1606,
+        125,
+        1997,
+        1276
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "typing_1",
+      "source": "anim-ivanych-2.png",
+      "claimed_bounds": [
+        2002,
+        124,
+        2583,
+        1321
+      ],
+      "component_bounds": [
+        2002,
+        124,
+        2583,
+        1321
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "typing_2",
+      "source": "anim-ivanych-2.png",
+      "claimed_bounds": [
+        2577,
+        124,
+        3156,
+        1321
+      ],
+      "component_bounds": [
+        2577,
+        124,
+        3156,
+        1321
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-ivanych.png",
+      "claimed_bounds": [
+        79,
+        145,
+        413,
+        725
+      ],
+      "component_bounds": [
+        79,
+        145,
+        413,
+        725
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-ivanych.png",
+      "claimed_bounds": [
+        549,
+        149,
+        880,
+        725
+      ],
+      "component_bounds": [
+        549,
+        149,
+        880,
+        725
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "seated_back_think",
+      "source": "seated-back-ivanych.png",
+      "claimed_bounds": [
+        1021,
+        145,
+        1364,
+        725
+      ],
+      "component_bounds": [
+        1021,
+        145,
+        1364,
+        725
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "seated_back_recline",
+      "source": "seated-back-ivanych.png",
+      "claimed_bounds": [
+        1483,
+        157,
+        1868,
+        725
+      ],
+      "component_bounds": [
+        1483,
+        157,
+        1868,
+        725
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "chair_walk_1",
+      "source": "ivanych-chair.png",
+      "claimed_bounds": [
+        42,
+        116,
+        447,
+        711
+      ],
+      "component_bounds": [
+        42,
+        116,
+        447,
+        711
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "chair_walk_2",
+      "source": "ivanych-chair.png",
+      "claimed_bounds": [
+        507,
+        117,
+        913,
+        718
+      ],
+      "component_bounds": [
+        507,
+        117,
+        913,
+        718
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "chair_place",
+      "source": "ivanych-chair.png",
+      "claimed_bounds": [
+        983,
+        152,
+        1499,
+        720
+      ],
+      "component_bounds": [
+        1030,
+        152,
+        1499,
+        720
+      ],
+      "closed": true
+    },
+    {
+      "hero": "ivanych",
+      "pose": "chair_rest",
+      "source": "ivanych-chair.png",
+      "claimed_bounds": [
+        1526,
+        107,
+        1843,
+        709
+      ],
+      "component_bounds": [
+        1526,
+        107,
+        1841,
+        709
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "work",
+      "source": "hero-taya-1.png",
+      "claimed_bounds": [
+        206,
+        115,
+        770,
+        1264
+      ],
+      "component_bounds": [
+        206,
+        115,
+        770,
+        1264
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "walk",
+      "source": "hero-taya-1.png",
+      "claimed_bounds": [
+        891,
+        115,
+        1528,
+        1264
+      ],
+      "component_bounds": [
+        891,
+        115,
+        1528,
+        1264
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "stretch",
+      "source": "hero-taya-1.png",
+      "claimed_bounds": [
+        1702,
+        114,
+        2219,
+        1264
+      ],
+      "component_bounds": [
+        1702,
+        114,
+        2219,
+        1264
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "cup",
+      "source": "hero-taya-1.png",
+      "claimed_bounds": [
+        2455,
+        115,
+        2886,
+        1264
+      ],
+      "component_bounds": [
+        2455,
+        115,
+        2886,
+        1264
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "walk_1",
+      "source": "walk2-taya-1.png",
+      "claimed_bounds": [
+        102,
+        116,
+        742,
+        1266
+      ],
+      "component_bounds": [
+        102,
+        116,
+        742,
+        1266
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "walk_2",
+      "source": "walk2-taya-1.png",
+      "claimed_bounds": [
+        1034,
+        116,
+        1431,
+        1266
+      ],
+      "component_bounds": [
+        1034,
+        116,
+        1431,
+        1266
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "walk_3",
+      "source": "walk2-taya-1.png",
+      "claimed_bounds": [
+        1628,
+        116,
+        2269,
+        1259
+      ],
+      "component_bounds": [
+        1628,
+        116,
+        2269,
+        1259
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "walk_4",
+      "source": "walk2-taya-1.png",
+      "claimed_bounds": [
+        2394,
+        116,
+        2932,
+        1266
+      ],
+      "component_bounds": [
+        2394,
+        116,
+        2932,
+        1266
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "typing_1",
+      "source": "anim-taya-1.png",
+      "claimed_bounds": [
+        2089,
+        115,
+        2591,
+        1264
+      ],
+      "component_bounds": [
+        2089,
+        115,
+        2591,
+        1264
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "typing_2",
+      "source": "anim-taya-1.png",
+      "claimed_bounds": [
+        2582,
+        126,
+        3088,
+        1264
+      ],
+      "component_bounds": [
+        2582,
+        126,
+        3088,
+        1264
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-taya.png",
+      "claimed_bounds": [
+        91,
+        138,
+        388,
+        737
+      ],
+      "component_bounds": [
+        91,
+        138,
+        388,
+        737
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-taya.png",
+      "claimed_bounds": [
+        572,
+        138,
+        869,
+        737
+      ],
+      "component_bounds": [
+        572,
+        138,
+        869,
+        737
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "seated_back_think",
+      "source": "seated-back-taya.png",
+      "claimed_bounds": [
+        1029,
+        140,
+        1344,
+        737
+      ],
+      "component_bounds": [
+        1029,
+        140,
+        1344,
+        737
+      ],
+      "closed": true
+    },
+    {
+      "hero": "taya",
+      "pose": "seated_back_recline",
+      "source": "seated-back-taya.png",
+      "claimed_bounds": [
+        1495,
+        146,
+        1859,
+        737
+      ],
+      "component_bounds": [
+        1495,
+        146,
+        1859,
+        737
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "work",
+      "source": "hero-sanya-v2-3.png",
+      "claimed_bounds": [
+        210,
+        93,
+        811,
+        1269
+      ],
+      "component_bounds": [
+        210,
+        93,
+        811,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "walk",
+      "source": "hero-sanya-v2-3.png",
+      "claimed_bounds": [
+        971,
+        93,
+        1474,
+        1269
+      ],
+      "component_bounds": [
+        971,
+        93,
+        1474,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "stretch",
+      "source": "hero-sanya-v2-3.png",
+      "claimed_bounds": [
+        1610,
+        86,
+        2314,
+        1269
+      ],
+      "component_bounds": [
+        1610,
+        86,
+        2314,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "cup",
+      "source": "hero-sanya-v2-3.png",
+      "claimed_bounds": [
+        2454,
+        92,
+        3011,
+        1269
+      ],
+      "component_bounds": [
+        2454,
+        92,
+        3011,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "walk_1",
+      "source": "walk2-sanya-1.png",
+      "claimed_bounds": [
+        208,
+        92,
+        758,
+        1263
+      ],
+      "component_bounds": [
+        208,
+        92,
+        758,
+        1263
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "walk_2",
+      "source": "walk2-sanya-1.png",
+      "claimed_bounds": [
+        971,
+        92,
+        1431,
+        1269
+      ],
+      "component_bounds": [
+        971,
+        92,
+        1431,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "walk_3",
+      "source": "walk2-sanya-1.png",
+      "claimed_bounds": [
+        1723,
+        92,
+        2295,
+        1262
+      ],
+      "component_bounds": [
+        1723,
+        92,
+        2295,
+        1262
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "walk_4",
+      "source": "walk2-sanya-1.png",
+      "claimed_bounds": [
+        2504,
+        92,
+        2968,
+        1269
+      ],
+      "component_bounds": [
+        2504,
+        92,
+        2968,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "seated_type_1",
+      "source": "sanya-seated-1.png",
+      "claimed_bounds": [
+        178,
+        99,
+        762,
+        1274
+      ],
+      "component_bounds": [
+        178,
+        99,
+        762,
+        1274
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "seated_type_2",
+      "source": "sanya-seated-1.png",
+      "claimed_bounds": [
+        958,
+        107,
+        1542,
+        1274
+      ],
+      "component_bounds": [
+        958,
+        107,
+        1542,
+        1274
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "seated_think",
+      "source": "sanya-seated-1.png",
+      "claimed_bounds": [
+        1718,
+        88,
+        2301,
+        1274
+      ],
+      "component_bounds": [
+        1718,
+        88,
+        2301,
+        1274
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "seated_victory",
+      "source": "sanya-seated-1.png",
+      "claimed_bounds": [
+        2342,
+        91,
+        3074,
+        1274
+      ],
+      "component_bounds": [
+        2342,
+        91,
+        3074,
+        1274
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "typing_1",
+      "source": "sanya-seated-1.png",
+      "claimed_bounds": [
+        178,
+        99,
+        762,
+        1274
+      ],
+      "component_bounds": [
+        178,
+        99,
+        762,
+        1274
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sanya",
+      "pose": "typing_2",
+      "source": "sanya-seated-1.png",
+      "claimed_bounds": [
+        958,
+        107,
+        1542,
+        1274
+      ],
+      "component_bounds": [
+        958,
+        107,
+        1542,
+        1274
+      ],
+      "closed": true
+    },
+    {
+      "hero": "motya",
+      "pose": "work",
+      "source": "hero-motya-1.png",
+      "claimed_bounds": [
+        177,
+        236,
+        790,
+        1172
+      ],
+      "component_bounds": [
+        177,
+        236,
+        790,
+        1172
+      ],
+      "closed": true
+    },
+    {
+      "hero": "motya",
+      "pose": "walk",
+      "source": "hero-motya-1.png",
+      "claimed_bounds": [
+        880,
+        236,
+        1579,
+        1172
+      ],
+      "component_bounds": [
+        880,
+        236,
+        1579,
+        1172
+      ],
+      "closed": true
+    },
+    {
+      "hero": "motya",
+      "pose": "stretch",
+      "source": "hero-motya-1.png",
+      "claimed_bounds": [
+        1534,
+        235,
+        2301,
+        1171
+      ],
+      "component_bounds": [
+        1534,
+        235,
+        2301,
+        1171
+      ],
+      "closed": true
+    },
+    {
+      "hero": "motya",
+      "pose": "cup",
+      "source": "hero-motya-1.png",
+      "claimed_bounds": [
+        2365,
+        236,
+        3067,
+        1151
+      ],
+      "component_bounds": [
+        2365,
+        236,
+        3067,
+        1151
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "work",
+      "source": "hero-whoami-gpt-2.png",
+      "claimed_bounds": [
+        93,
+        62,
+        484,
+        767
+      ],
+      "component_bounds": [
+        93,
+        62,
+        484,
+        767
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "walk",
+      "source": "hero-whoami-gpt-2.png",
+      "claimed_bounds": [
+        577,
+        62,
+        985,
+        767
+      ],
+      "component_bounds": [
+        577,
+        62,
+        985,
+        767
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "stretch",
+      "source": "hero-whoami-gpt-2.png",
+      "claimed_bounds": [
+        1036,
+        68,
+        1395,
+        763
+      ],
+      "component_bounds": [
+        1036,
+        68,
+        1395,
+        763
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "cup",
+      "source": "hero-whoami-gpt-2.png",
+      "claimed_bounds": [
+        1516,
+        63,
+        1826,
+        765
+      ],
+      "component_bounds": [
+        1516,
+        63,
+        1826,
+        765
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-whoami.png",
+      "claimed_bounds": [
+        88,
+        146,
+        428,
+        742
+      ],
+      "component_bounds": [
+        88,
+        146,
+        428,
+        742
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-whoami.png",
+      "claimed_bounds": [
+        558,
+        143,
+        886,
+        753
+      ],
+      "component_bounds": [
+        558,
+        143,
+        886,
+        753
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "seated_back_think",
+      "source": "seated-back-whoami.png",
+      "claimed_bounds": [
+        1012,
+        151,
+        1376,
+        753
+      ],
+      "component_bounds": [
+        1012,
+        151,
+        1376,
+        753
+      ],
+      "closed": true
+    },
+    {
+      "hero": "mikhalych",
+      "pose": "seated_back_recline",
+      "source": "seated-back-whoami.png",
+      "claimed_bounds": [
+        1480,
+        158,
+        1866,
+        745
+      ],
+      "component_bounds": [
+        1480,
+        158,
+        1866,
+        745
+      ],
+      "closed": true
+    },
+    {
+      "hero": "lyuda",
+      "pose": "work",
+      "source": "hero-lyuda-1.png",
+      "claimed_bounds": [
+        2543,
+        127,
+        2989,
+        1257
+      ],
+      "component_bounds": [
+        2543,
+        127,
+        2989,
+        1257
+      ],
+      "closed": true
+    },
+    {
+      "hero": "lyuda",
+      "pose": "walk",
+      "source": "hero-lyuda-1.png",
+      "claimed_bounds": [
+        1163,
+        127,
+        1691,
+        1257
+      ],
+      "component_bounds": [
+        1163,
+        127,
+        1691,
+        1257
+      ],
+      "closed": true
+    },
+    {
+      "hero": "lyuda",
+      "pose": "stretch",
+      "source": "hero-lyuda-1.png",
+      "claimed_bounds": [
+        1772,
+        117,
+        2318,
+        1257
+      ],
+      "component_bounds": [
+        1772,
+        117,
+        2318,
+        1257
+      ],
+      "closed": true
+    },
+    {
+      "hero": "lyuda",
+      "pose": "cup",
+      "source": "hero-lyuda-1.png",
+      "claimed_bounds": [
+        2543,
+        127,
+        2989,
+        1257
+      ],
+      "component_bounds": [
+        2543,
+        127,
+        2989,
+        1257
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sharik",
+      "pose": "work",
+      "source": "hero-sharik-1.png",
+      "claimed_bounds": [
+        2538,
+        173,
+        3057,
+        1231
+      ],
+      "component_bounds": [
+        2538,
+        173,
+        3057,
+        1231
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sharik",
+      "pose": "walk",
+      "source": "hero-sharik-1.png",
+      "claimed_bounds": [
+        1147,
+        173,
+        1740,
+        1219
+      ],
+      "component_bounds": [
+        1147,
+        173,
+        1740,
+        1219
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sharik",
+      "pose": "stretch",
+      "source": "hero-sharik-1.png",
+      "claimed_bounds": [
+        1700,
+        103,
+        2518,
+        1231
+      ],
+      "component_bounds": [
+        1700,
+        103,
+        2518,
+        1231
+      ],
+      "closed": true
+    },
+    {
+      "hero": "sharik",
+      "pose": "cup",
+      "source": "hero-sharik-1.png",
+      "claimed_bounds": [
+        2538,
+        173,
+        3057,
+        1231
+      ],
+      "component_bounds": [
+        2538,
+        173,
+        3057,
+        1231
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "work",
+      "source": "hero-owner-2.png",
+      "claimed_bounds": [
+        117,
+        92,
+        860,
+        1269
+      ],
+      "component_bounds": [
+        117,
+        92,
+        860,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "walk",
+      "source": "hero-owner-2.png",
+      "claimed_bounds": [
+        919,
+        92,
+        1544,
+        1269
+      ],
+      "component_bounds": [
+        919,
+        92,
+        1544,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "stretch",
+      "source": "hero-owner-2.png",
+      "claimed_bounds": [
+        1683,
+        92,
+        2360,
+        1269
+      ],
+      "component_bounds": [
+        1683,
+        92,
+        2360,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "cup",
+      "source": "hero-owner-2.png",
+      "claimed_bounds": [
+        2450,
+        92,
+        2950,
+        1269
+      ],
+      "component_bounds": [
+        2450,
+        92,
+        2950,
+        1269
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "walk_1",
+      "source": "anim-owner-2.png",
+      "claimed_bounds": [
+        41,
+        80,
+        633,
+        1265
+      ],
+      "component_bounds": [
+        41,
+        80,
+        633,
+        1265
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "walk_2",
+      "source": "anim-owner-2.png",
+      "claimed_bounds": [
+        598,
+        80,
+        1064,
+        1243
+      ],
+      "component_bounds": [
+        598,
+        80,
+        1064,
+        1243
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "walk_3",
+      "source": "anim-owner-2.png",
+      "claimed_bounds": [
+        1097,
+        80,
+        1551,
+        1236
+      ],
+      "component_bounds": [
+        1097,
+        80,
+        1551,
+        1236
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "walk_4",
+      "source": "anim-owner-2.png",
+      "claimed_bounds": [
+        1589,
+        80,
+        2061,
+        1265
+      ],
+      "component_bounds": [
+        1589,
+        80,
+        2061,
+        1265
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "typing_1",
+      "source": "anim-owner-2.png",
+      "claimed_bounds": [
+        2082,
+        80,
+        2608,
+        1265
+      ],
+      "component_bounds": [
+        2082,
+        80,
+        2608,
+        1265
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "typing_2",
+      "source": "anim-owner-2.png",
+      "claimed_bounds": [
+        2574,
+        80,
+        3126,
+        1265
+      ],
+      "component_bounds": [
+        2574,
+        80,
+        3126,
+        1265
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-owner.png",
+      "claimed_bounds": [
+        86,
+        141,
+        422,
+        745
+      ],
+      "component_bounds": [
+        86,
+        141,
+        422,
+        745
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-owner.png",
+      "claimed_bounds": [
+        569,
+        141,
+        891,
+        745
+      ],
+      "component_bounds": [
+        569,
+        141,
+        891,
+        745
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "seated_back_think",
+      "source": "seated-back-owner.png",
+      "claimed_bounds": [
+        1025,
+        146,
+        1354,
+        745
+      ],
+      "component_bounds": [
+        1025,
+        146,
+        1354,
+        745
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "seated_back_recline",
+      "source": "seated-back-owner.png",
+      "claimed_bounds": [
+        1485,
+        151,
+        1869,
+        745
+      ],
+      "component_bounds": [
+        1485,
+        151,
+        1869,
+        745
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_breaker",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        179,
+        30,
+        455,
+        413
+      ],
+      "component_bounds": [
+        179,
+        30,
+        455,
+        413
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_clap",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        619,
+        30,
+        877,
+        414
+      ],
+      "component_bounds": [
+        619,
+        30,
+        840,
+        414
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_point",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        979,
+        30,
+        1337,
+        414
+      ],
+      "component_bounds": [
+        979,
+        30,
+        1337,
+        414
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_pizza",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        1493,
+        29,
+        1799,
+        414
+      ],
+      "component_bounds": [
+        1493,
+        29,
+        1799,
+        414
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_eat",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        170,
+        431,
+        409,
+        805
+      ],
+      "component_bounds": [
+        170,
+        431,
+        409,
+        805
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_peek",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        629,
+        446,
+        913,
+        803
+      ],
+      "component_bounds": [
+        629,
+        446,
+        913,
+        803
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_skeptic",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        1062,
+        430,
+        1260,
+        805
+      ],
+      "component_bounds": [
+        1062,
+        430,
+        1260,
+        805
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_shrug",
+      "source": "owner-features.png",
+      "claimed_bounds": [
+        1428,
+        430,
+        1768,
+        805
+      ],
+      "component_bounds": [
+        1428,
+        430,
+        1768,
+        805
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_point_back",
+      "source": "office23b/owner-point-back-source.png",
+      "claimed_bounds": [
+        37,
+        29,
+        1157,
+        1256
+      ],
+      "component_bounds": [
+        297,
+        169,
+        1021,
+        1249
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_sleep_forward",
+      "source": "office24/owner-night.png",
+      "claimed_bounds": [
+        71,
+        179,
+        398,
+        741
+      ],
+      "component_bounds": [
+        71,
+        211,
+        396,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_sleep_back",
+      "source": "office24/owner-night.png",
+      "claimed_bounds": [
+        569,
+        158,
+        914,
+        741
+      ],
+      "component_bounds": [
+        569,
+        207,
+        914,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_wake",
+      "source": "office24/owner-night.png",
+      "claimed_bounds": [
+        958,
+        26,
+        1434,
+        741
+      ],
+      "component_bounds": [
+        958,
+        163,
+        1434,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "owner",
+      "pose": "owner_yawn",
+      "source": "office24/owner-night.png",
+      "claimed_bounds": [
+        1499,
+        119,
+        1873,
+        741
+      ],
+      "component_bounds": [
+        1499,
+        136,
+        1873,
+        741
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "work",
+      "source": "hero-marina-1.png",
+      "claimed_bounds": [
+        271,
+        106,
+        833,
+        1275
+      ],
+      "component_bounds": [
+        271,
+        106,
+        833,
+        1275
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "walk",
+      "source": "hero-marina-1.png",
+      "claimed_bounds": [
+        1023,
+        113,
+        1504,
+        1270
+      ],
+      "component_bounds": [
+        1023,
+        113,
+        1504,
+        1270
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "stretch",
+      "source": "hero-marina-1.png",
+      "claimed_bounds": [
+        1734,
+        44,
+        2283,
+        1288
+      ],
+      "component_bounds": [
+        1734,
+        44,
+        2283,
+        1288
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "cup",
+      "source": "hero-marina-1.png",
+      "claimed_bounds": [
+        2510,
+        108,
+        2901,
+        1275
+      ],
+      "component_bounds": [
+        2510,
+        108,
+        2901,
+        1275
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "walk_1",
+      "source": "walk2-marina-1.png",
+      "claimed_bounds": [
+        212,
+        109,
+        699,
+        1282
+      ],
+      "component_bounds": [
+        212,
+        109,
+        699,
+        1282
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "walk_2",
+      "source": "walk2-marina-1.png",
+      "claimed_bounds": [
+        1052,
+        109,
+        1399,
+        1289
+      ],
+      "component_bounds": [
+        1052,
+        109,
+        1399,
+        1289
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "walk_3",
+      "source": "walk2-marina-1.png",
+      "claimed_bounds": [
+        1776,
+        109,
+        2262,
+        1282
+      ],
+      "component_bounds": [
+        1776,
+        109,
+        2262,
+        1282
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "walk_4",
+      "source": "walk2-marina-1.png",
+      "claimed_bounds": [
+        2591,
+        109,
+        2939,
+        1289
+      ],
+      "component_bounds": [
+        2591,
+        109,
+        2939,
+        1289
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "typing_1",
+      "source": "anim-marina-1.png",
+      "claimed_bounds": [
+        2143,
+        109,
+        2587,
+        1276
+      ],
+      "component_bounds": [
+        2143,
+        109,
+        2587,
+        1276
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "typing_2",
+      "source": "anim-marina-1.png",
+      "claimed_bounds": [
+        2649,
+        108,
+        3094,
+        1276
+      ],
+      "component_bounds": [
+        2649,
+        108,
+        3094,
+        1276
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "seated_back_type_1",
+      "source": "seated-back-marina.png",
+      "claimed_bounds": [
+        92,
+        118,
+        391,
+        744
+      ],
+      "component_bounds": [
+        92,
+        118,
+        391,
+        744
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "seated_back_type_2",
+      "source": "seated-back-marina.png",
+      "claimed_bounds": [
+        563,
+        127,
+        854,
+        744
+      ],
+      "component_bounds": [
+        563,
+        127,
+        854,
+        744
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "seated_back_think",
+      "source": "seated-back-marina.png",
+      "claimed_bounds": [
+        1027,
+        118,
+        1346,
+        744
+      ],
+      "component_bounds": [
+        1027,
+        118,
+        1346,
+        744
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "seated_back_recline",
+      "source": "seated-back-marina.png",
+      "claimed_bounds": [
+        1493,
+        158,
+        1836,
+        737
+      ],
+      "component_bounds": [
+        1493,
+        158,
+        1836,
+        737
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "run_1",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        141,
+        25,
+        452,
+        389
+      ],
+      "component_bounds": [
+        143,
+        27,
+        450,
+        387
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "run_2",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        564,
+        27,
+        892,
+        389
+      ],
+      "component_bounds": [
+        566,
+        29,
+        890,
+        387
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "run_3",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        1006,
+        23,
+        1314,
+        389
+      ],
+      "component_bounds": [
+        1008,
+        25,
+        1312,
+        387
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "run_4",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        1457,
+        20,
+        1733,
+        394
+      ],
+      "component_bounds": [
+        1459,
+        22,
+        1731,
+        392
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "scene_angry",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        165,
+        401,
+        397,
+        798
+      ],
+      "component_bounds": [
+        167,
+        403,
+        395,
+        796
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "scene_sweep",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        635,
+        400,
+        905,
+        799
+      ],
+      "component_bounds": [
+        637,
+        402,
+        882,
+        797
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "scene_carry",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        1057,
+        401,
+        1314,
+        800
+      ],
+      "component_bounds": [
+        1059,
+        403,
+        1312,
+        798
+      ],
+      "closed": true
+    },
+    {
+      "hero": "marina",
+      "pose": "scene_happy",
+      "source": "scene-marina-pot.png",
+      "claimed_bounds": [
+        1541,
+        401,
+        1740,
+        803
+      ],
+      "component_bounds": [
+        1543,
+        403,
+        1716,
+        801
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "work",
+      "source": "hero-korzhik-2.png",
+      "claimed_bounds": [
+        174,
+        248,
+        709,
+        1146
+      ],
+      "component_bounds": [
+        174,
+        248,
+        709,
+        1146
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "walk",
+      "source": "hero-korzhik-2.png",
+      "claimed_bounds": [
+        820,
+        150,
+        1459,
+        1156
+      ],
+      "component_bounds": [
+        820,
+        150,
+        1459,
+        1156
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "stretch",
+      "source": "hero-korzhik-2.png",
+      "claimed_bounds": [
+        1578,
+        353,
+        2243,
+        1156
+      ],
+      "component_bounds": [
+        1578,
+        353,
+        2243,
+        1156
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "cup",
+      "source": "hero-korzhik-2.png",
+      "claimed_bounds": [
+        2325,
+        507,
+        3057,
+        1086
+      ],
+      "component_bounds": [
+        2325,
+        507,
+        3057,
+        1086
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "walk_1",
+      "source": "walk2-korzhik-1.png",
+      "claimed_bounds": [
+        143,
+        151,
+        767,
+        1164
+      ],
+      "component_bounds": [
+        143,
+        151,
+        767,
+        1164
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "walk_2",
+      "source": "walk2-korzhik-1.png",
+      "claimed_bounds": [
+        820,
+        151,
+        1459,
+        1135
+      ],
+      "component_bounds": [
+        820,
+        151,
+        1459,
+        1135
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "walk_3",
+      "source": "walk2-korzhik-1.png",
+      "claimed_bounds": [
+        1579,
+        151,
+        2276,
+        1165
+      ],
+      "component_bounds": [
+        1579,
+        151,
+        2276,
+        1165
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "walk_4",
+      "source": "walk2-korzhik-1.png",
+      "claimed_bounds": [
+        2387,
+        219,
+        3020,
+        1196
+      ],
+      "component_bounds": [
+        2387,
+        219,
+        3020,
+        1196
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "tail_1",
+      "source": "anim-korzhik-2.png",
+      "claimed_bounds": [
+        1076,
+        718,
+        1484,
+        1282
+      ],
+      "component_bounds": [
+        1076,
+        718,
+        1484,
+        1282
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "tail_2",
+      "source": "anim-korzhik-2.png",
+      "claimed_bounds": [
+        1608,
+        718,
+        2018,
+        1283
+      ],
+      "component_bounds": [
+        1608,
+        718,
+        2018,
+        1283
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "wash",
+      "source": "cat-poses-korzhik-2.png",
+      "claimed_bounds": [
+        174,
+        250,
+        738,
+        1147
+      ],
+      "component_bounds": [
+        174,
+        250,
+        738,
+        1147
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "cat_stretch",
+      "source": "cat-poses-korzhik-2.png",
+      "claimed_bounds": [
+        813,
+        92,
+        1535,
+        1156
+      ],
+      "component_bounds": [
+        813,
+        92,
+        1535,
+        1156
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "belly",
+      "source": "cat-poses-korzhik-2.png",
+      "claimed_bounds": [
+        1594,
+        243,
+        2379,
+        1156
+      ],
+      "component_bounds": [
+        1594,
+        243,
+        2379,
+        1156
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "window",
+      "source": "cat-poses-korzhik-2.png",
+      "claimed_bounds": [
+        2461,
+        250,
+        3034,
+        1156
+      ],
+      "component_bounds": [
+        2461,
+        250,
+        3034,
+        1156
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "run_1",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        50,
+        105,
+        483,
+        312
+      ],
+      "component_bounds": [
+        52,
+        107,
+        481,
+        310
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "run_2",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        516,
+        99,
+        900,
+        323
+      ],
+      "component_bounds": [
+        518,
+        101,
+        898,
+        321
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "run_3",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        970,
+        114,
+        1385,
+        329
+      ],
+      "component_bounds": [
+        972,
+        116,
+        1383,
+        327
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "run_4",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        1479,
+        76,
+        1862,
+        323
+      ],
+      "component_bounds": [
+        1481,
+        78,
+        1860,
+        321
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "scene_crouch",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        108,
+        385,
+        444,
+        727
+      ],
+      "component_bounds": [
+        110,
+        387,
+        442,
+        725
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "scene_jump",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        485,
+        418,
+        974,
+        656
+      ],
+      "component_bounds": [
+        487,
+        420,
+        972,
+        654
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "scene_swipe",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        1028,
+        375,
+        1313,
+        763
+      ],
+      "component_bounds": [
+        1030,
+        377,
+        1311,
+        761
+      ],
+      "closed": true
+    },
+    {
+      "hero": "korzhik",
+      "pose": "scene_guilty",
+      "source": "scene-korzhik-run.png",
+      "claimed_bounds": [
+        1520,
+        425,
+        1733,
+        762
+      ],
+      "component_bounds": [
+        1522,
+        427,
+        1731,
+        760
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "work",
+      "source": "hero-masyanya-v2-1.png",
+      "claimed_bounds": [
+        126,
+        242,
+        623,
+        1082
+      ],
+      "component_bounds": [
+        126,
+        242,
+        623,
+        1082
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "walk",
+      "source": "hero-masyanya-v2-1.png",
+      "claimed_bounds": [
+        701,
+        233,
+        1598,
+        1070
+      ],
+      "component_bounds": [
+        701,
+        233,
+        1598,
+        1070
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "stretch",
+      "source": "hero-masyanya-v2-1.png",
+      "claimed_bounds": [
+        1716,
+        320,
+        2300,
+        1150
+      ],
+      "component_bounds": [
+        1716,
+        320,
+        2300,
+        1150
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "cup",
+      "source": "hero-masyanya-v2-1.png",
+      "claimed_bounds": [
+        2373,
+        457,
+        3045,
+        996
+      ],
+      "component_bounds": [
+        2373,
+        457,
+        3045,
+        996
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "walk_1",
+      "source": "walk2-masyanya-1.png",
+      "claimed_bounds": [
+        61,
+        286,
+        777,
+        981
+      ],
+      "component_bounds": [
+        61,
+        286,
+        777,
+        981
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "walk_2",
+      "source": "walk2-masyanya-1.png",
+      "claimed_bounds": [
+        861,
+        283,
+        1547,
+        981
+      ],
+      "component_bounds": [
+        861,
+        283,
+        1547,
+        981
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "walk_3",
+      "source": "walk2-masyanya-1.png",
+      "claimed_bounds": [
+        1613,
+        284,
+        2329,
+        974
+      ],
+      "component_bounds": [
+        1613,
+        284,
+        2329,
+        974
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "walk_4",
+      "source": "walk2-masyanya-1.png",
+      "claimed_bounds": [
+        2419,
+        283,
+        3105,
+        976
+      ],
+      "component_bounds": [
+        2419,
+        283,
+        3105,
+        976
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "tail_1",
+      "source": "anim-masyanya-v2-1.png",
+      "claimed_bounds": [
+        1442,
+        753,
+        1908,
+        1278
+      ],
+      "component_bounds": [
+        1442,
+        753,
+        1908,
+        1278
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "tail_2",
+      "source": "anim-masyanya-v2-1.png",
+      "claimed_bounds": [
+        2398,
+        753,
+        2912,
+        1278
+      ],
+      "component_bounds": [
+        2398,
+        753,
+        2912,
+        1278
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "wash",
+      "source": "cat-poses-masyanya-v2-1.png",
+      "claimed_bounds": [
+        167,
+        324,
+        739,
+        1111
+      ],
+      "component_bounds": [
+        167,
+        324,
+        739,
+        1111
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "cat_stretch",
+      "source": "cat-poses-masyanya-v2-1.png",
+      "claimed_bounds": [
+        777,
+        162,
+        1563,
+        1178
+      ],
+      "component_bounds": [
+        777,
+        162,
+        1563,
+        1178
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "belly",
+      "source": "cat-poses-masyanya-v2-1.png",
+      "claimed_bounds": [
+        1599,
+        265,
+        2338,
+        1170
+      ],
+      "component_bounds": [
+        1599,
+        265,
+        2338,
+        1170
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "window",
+      "source": "cat-poses-masyanya-v2-1.png",
+      "claimed_bounds": [
+        2374,
+        243,
+        2967,
+        1185
+      ],
+      "component_bounds": [
+        2374,
+        243,
+        2967,
+        1185
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "run_1",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        19,
+        125,
+        522,
+        324
+      ],
+      "component_bounds": [
+        21,
+        127,
+        520,
+        322
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "run_2",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        523,
+        123,
+        943,
+        352
+      ],
+      "component_bounds": [
+        525,
+        125,
+        936,
+        350
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "run_3",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        972,
+        115,
+        1410,
+        348
+      ],
+      "component_bounds": [
+        974,
+        117,
+        1404,
+        346
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "run_4",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        1426,
+        126,
+        1878,
+        343
+      ],
+      "component_bounds": [
+        1428,
+        128,
+        1871,
+        341
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "scene_crouch",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        109,
+        394,
+        446,
+        703
+      ],
+      "component_bounds": [
+        111,
+        396,
+        444,
+        701
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "scene_jump",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        489,
+        427,
+        1005,
+        683
+      ],
+      "component_bounds": [
+        491,
+        429,
+        1003,
+        681
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "scene_swipe",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        1095,
+        369,
+        1417,
+        753
+      ],
+      "component_bounds": [
+        1097,
+        371,
+        1385,
+        751
+      ],
+      "closed": true
+    },
+    {
+      "hero": "masyanya",
+      "pose": "scene_guilty",
+      "source": "scene-masyanya-run.png",
+      "claimed_bounds": [
+        1556,
+        425,
+        1806,
+        744
+      ],
+      "component_bounds": [
+        1558,
+        427,
+        1799,
+        742
+      ],
+      "closed": true
+    }
+  ]
+}

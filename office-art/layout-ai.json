@@ -1,0 +1,361 @@
+{
+  "version": 7,
+  "canvas": {
+    "width": 960,
+    "height": 600
+  },
+  "background": {
+    "image": "/office-bg-ai.png",
+    "source_size": [
+      2752,
+      1536
+    ],
+    "rendered_rect": [
+      0,
+      32,
+      960,
+      536
+    ],
+    "resampling": "linear-mipmap",
+    "source": "office-v8-sanya-merged.png",
+    "geometry_note": "OFFICE-17 v8 merged native painting in unchanged v7 registration; only native desk region [1644,1139,2178,1536] differs from v7."
+  },
+  "anchor": "feet",
+  "heroes": {
+    "Ярик": {
+      "x": 462,
+      "y": 378
+    },
+    "Лёха": {
+      "x": 271,
+      "y": 546
+    },
+    "Ася": {
+      "x": 122,
+      "y": 546
+    },
+    "Иваныч": {
+      "x": 145,
+      "y": 378
+    },
+    "Тая": {
+      "x": 306,
+      "y": 378
+    },
+    "Саня": {
+      "x": 677.4,
+      "y": 493
+    },
+    "whoami": {
+      "x": 465,
+      "y": 546
+    },
+    "Евгений": {
+      "x": 815,
+      "y": 257
+    },
+    "Марина": {
+      "x": 752,
+      "y": 450
+    },
+    "Коржик": {
+      "x": 496,
+      "y": 192
+    },
+    "Масяня": {
+      "x": 604,
+      "y": 263
+    }
+  },
+  "destinations": {
+    "cooler": {
+      "x": 875,
+      "y": 468
+    },
+    "coffee": {
+      "x": 915,
+      "y": 493
+    }
+  },
+  "passages": [
+    [
+      [
+        540,
+        390
+      ],
+      [
+        690,
+        390
+      ],
+      [
+        810,
+        485
+      ]
+    ],
+    [
+      [
+        180,
+        455
+      ],
+      [
+        570,
+        455
+      ],
+      [
+        695,
+        480
+      ]
+    ],
+    [
+      [
+        570,
+        550
+      ],
+      [
+        800,
+        550
+      ]
+    ]
+  ],
+  "note": "Passages are suggested centerlines, not a collision mesh.",
+  "keyboards": {
+    "Ярик": {
+      "x": 463,
+      "y": 299
+    },
+    "Ася": {
+      "x": 122,
+      "y": 466
+    },
+    "Лёха": {
+      "x": 273,
+      "y": 466
+    },
+    "whoami": {
+      "x": 462,
+      "y": 459
+    },
+    "Евгений": {
+      "x": 814,
+      "y": 216
+    },
+    "Марина": {
+      "x": 753,
+      "y": 371
+    }
+  },
+  "fixtures": {
+    "Мотя": {
+      "kind": "server-rack",
+      "rect": [
+        646,
+        80,
+        85,
+        196
+      ],
+      "name_anchor": {
+        "x": 688,
+        "y": 56
+      }
+    },
+    "JH": {
+      "kind": "vacancy-tablet",
+      "rect": [
+        807,
+        270,
+        111,
+        76
+      ],
+      "name_anchor": {
+        "x": 862,
+        "y": 246
+      },
+      "screen_polygon_native": [
+        [
+          2334,
+          700
+        ],
+        [
+          2617,
+          700
+        ],
+        [
+          2617,
+          828
+        ],
+        [
+          2586,
+          828
+        ],
+        [
+          2566,
+          840
+        ],
+        [
+          2566,
+          854
+        ],
+        [
+          2575,
+          872
+        ],
+        [
+          2334,
+          872
+        ]
+      ],
+      "screen_polygon": [
+        [
+          814.186,
+          276.2708
+        ],
+        [
+          912.907,
+          276.2708
+        ],
+        [
+          912.907,
+          320.9375
+        ],
+        [
+          902.093,
+          320.9375
+        ],
+        [
+          895.1163,
+          325.125
+        ],
+        [
+          895.1163,
+          330.0104
+        ],
+        [
+          898.2558,
+          336.2917
+        ],
+        [
+          814.186,
+          336.2917
+        ]
+      ],
+      "delivery_card": {
+        "x": 820,
+        "y": 282,
+        "width": 82,
+        "height": 26
+      },
+      "status_light": {
+        "x": 863.3721,
+        "y": 273.8281
+      },
+      "geometry_note": "Screen polygon follows inner display pixels and excludes the cooler silhouette at lower right. Outer fixture and navigation mask stay in v6 scene coordinates."
+    }
+  },
+  "cat_beds": {
+    "sill": {
+      "label": "лежанка на подоконнике",
+      "kind": "windowsill-bed",
+      "rect": [
+        463,
+        159,
+        68,
+        43
+      ],
+      "place": {
+        "x": 496,
+        "y": 192
+      },
+      "access": [
+        {
+          "x": 565,
+          "y": 204
+        }
+      ],
+      "exit": {
+        "x": 575,
+        "y": 340
+      }
+    },
+    "floor": {
+      "label": "напольная лежанка",
+      "kind": "floor-bed",
+      "rect": [
+        567,
+        225,
+        73,
+        49
+      ],
+      "place": {
+        "x": 604,
+        "y": 263
+      },
+      "access": [
+        {
+          "x": 604,
+          "y": 281
+        }
+      ],
+      "exit": {
+        "x": 604,
+        "y": 300
+      }
+    },
+    "qa": {
+      "label": "лежанка с пледом",
+      "kind": "floor-bed",
+      "rect": [
+        807,
+        379,
+        78,
+        64
+      ],
+      "place": {
+        "x": 847,
+        "y": 424
+      },
+      "access": [
+        {
+          "x": 835,
+          "y": 445
+        }
+      ],
+      "exit": {
+        "x": 835,
+        "y": 460
+      }
+    }
+  },
+  "furniture_masks": {
+    "qa-desk": [
+      698,
+      348,
+      111,
+      91
+    ],
+    "partition": [
+      700,
+      297,
+      107,
+      51
+    ],
+    "qa-bed": [
+      807,
+      379,
+      78,
+      64
+    ],
+    "board": [
+      807,
+      270,
+      111,
+      76
+    ],
+    "sanya-desk": [
+      582.2,
+      501,
+      169,
+      67
+    ]
+  },
+  "keyboard_note": "OFFICE-21 v8: cat feet 11px below measured keys; Evgeny/whoami central screen, Marina laptop. Physical keys and apron live in workstation.ts."
+}

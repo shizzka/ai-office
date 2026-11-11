@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "dcm",
+      "name": "DCM",
+      "backlog": "/path/to/work/dcm/BACKLOG.md",
+      "pipeline": "/path/to/work/dcm-qa/fixes/pipeline.log",
+      "queues": [
+        {
+          "path": "/path/to/work/dcm-qa/queue",
+          "logMarker": "[очередь]",
+          "name": "Щит"
+        },
+        {
+          "path": "/path/to/work/dcm-qa/queue-smeta",
+          "logMarker": "[смета]",
+          "name": "Смета"
+        }
+      ]
+    }
+  ]
+}

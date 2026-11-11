@@ -1,0 +1,1786 @@
+{
+  "version": 1,
+  "frame_size": {
+    "w": 64,
+    "h": 96
+  },
+  "origin": "top-left",
+  "coordinate_units": "source pixels",
+  "image_sampling": "nearest",
+  "animations": {
+    "work": [
+      "work_type",
+      "work_read"
+    ],
+    "walk": [
+      "walk_1",
+      "walk_2",
+      "walk_3",
+      "walk_4"
+    ],
+    "stretch": [
+      "stretch_1",
+      "stretch_2"
+    ],
+    "cooler": [
+      "cooler_1",
+      "cooler_2"
+    ],
+    "easter": [
+      "easter_1",
+      "easter_2"
+    ]
+  },
+  "heroes": {
+    "Ярик": {
+      "image": "Ярик.png",
+      "role": "Архитектор",
+      "easter_egg": "llama / sunglasses",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Лёха": {
+      "image": "Лёха.png",
+      "role": "Разработчик",
+      "easter_egg": "duck / works on my machine",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Ася": {
+      "image": "Ася.png",
+      "role": "Код-ревью · QA",
+      "easter_egg": "LGTM / cactus",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Иваныч": {
+      "image": "Иваныч.png",
+      "role": "Нормоконтроль",
+      "easter_egg": "thermos / indicator",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Тая": {
+      "image": "Тая.png",
+      "role": "Визуал",
+      "easter_egg": "cat / paint",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Саня": {
+      "image": "Саня.png",
+      "role": "Тестировщик",
+      "easter_egg": "bug in jar",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Мотя": {
+      "image": "Мотя.png",
+      "role": "Воркер",
+      "easter_egg": "regression LED",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "whoami": {
+      "image": "Михалыч.png",
+      "role": "Безопасник",
+      "easter_egg": "sudo / lock",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Люда": {
+      "image": "Люда.png",
+      "role": "Диспетчер JH",
+      "easter_egg": "headphones on cactus",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    },
+    "Шарик": {
+      "image": "Шарик.png",
+      "role": "Поиск и отклики",
+      "easter_egg": "CV / tail",
+      "frames": {
+        "work_type": {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "work_read": {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_1": {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_2": {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_3": {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "walk_4": {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_1": {
+          "x": 384,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "stretch_2": {
+          "x": 448,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_1": {
+          "x": 512,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "cooler_2": {
+          "x": 576,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_1": {
+          "x": 640,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        },
+        "easter_2": {
+          "x": 704,
+          "y": 0,
+          "w": 64,
+          "h": 96,
+          "foot_anchor": [
+            32,
+            93
+          ],
+          "label_anchor": [
+            32,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

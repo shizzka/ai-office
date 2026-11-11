@@ -1,0 +1,17 @@
+[Unit]
+Description=AI Office WebSocket (:3101)
+PartOf=ai-office.service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/q/ai-office
+Environment=NODE_ENV=production
+Environment=PATH=/home/q/.config/nvm/versions/node/v22.22.0/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/q/.config/nvm/versions/node/v22.22.0/bin/node worker/ws-server.js
+Restart=always
+RestartSec=5
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=default.target

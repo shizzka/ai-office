@@ -1,0 +1,26 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import type { Agent } from '../src/lib/utils/types';
+import { jhBoard, sceneAgents, panelAgent } from '../src/components/office/jhBoard';
+import { heroStatusColor } from '../src/components/office/officeAnnotations';
+import { officeFixture } from '../src/components/office/officeLayout';
+const agent=(name:string,currentStatus='idle',statusText='')=>({id:name,name,currentStatus,statusText} as Agent);
+test('JH preserves both sources and projects their worst status onto the board',()=>{
+  const sources=[agent('Люда','working','jh-ops: проверяет поиск'),agent('Шарик','idle','Последний поиск: 17:20')];
+  const before=JSON.stringify(sources);
+  let board=jhBoard(sources)!;
+  assert.equal(board.name,'JH'); assert.equal(board.currentStatus,'working');
+  assert.match(board.statusText!,/Последний поиск: 17:20/);assert.match(board.statusText!,/jh-ops: проверяет поиск/);
+  assert.equal(heroStatusColor(board.currentStatus!,board.statusText!),0x22c55e);
+  sources[1]=agent('Шарик','idle','Ошибка: поиск завершился со сбоем');
+  board=jhBoard(sources)!;assert.equal(heroStatusColor(board.currentStatus!,board.statusText!),0xef4444);
+  sources[1]=agent('Шарик','idle','Последний поиск: 17:20');
+  assert.equal(JSON.stringify(sources),before);
+  assert.deepEqual(sceneAgents(sources).map(a=>a.name),['JH']);
+  assert.deepEqual(sources.map(a=>panelAgent(a).name),['JH · эксплуатация','JH · бот']);
+  assert.equal(officeFixture('art','JH')?.kind,'vacancy-tablet');
+  sources[1]=agent('Шарик','idle','⚠ Последний прогон, rc=1');
+  board=jhBoard(sources)!;assert.equal(heroStatusColor(board.currentStatus!,board.statusText!),0xef4444);
+  sources[1]=agent('Шарик','idle','Последний прогон, rc=0; ошибок этапов 0');
+  assert.equal(heroStatusColor(jhBoard(sources)!.currentStatus!,jhBoard(sources)!.statusText!),0x22c55e);
+});

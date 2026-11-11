@@ -1,0 +1,306 @@
+{
+  "yarik": {
+    "seated_back_type_1": {
+      "bounds": [
+        189,
+        192,
+        386,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        189,
+        192,
+        386,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        184,
+        190,
+        391,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        162,
+        194,
+        413,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "leha": {
+    "seated_back_type_1": {
+      "bounds": [
+        191,
+        192,
+        385,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        190,
+        192,
+        385,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        184,
+        192,
+        391,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        165,
+        201,
+        410,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "asya": {
+    "seated_back_type_1": {
+      "bounds": [
+        185,
+        154,
+        391,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        183,
+        158,
+        393,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        173,
+        154,
+        403,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        158,
+        179,
+        417,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "ivanych": {
+    "seated_back_type_1": {
+      "bounds": [
+        177,
+        191,
+        399,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        178,
+        193,
+        398,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        174,
+        191,
+        402,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        160,
+        199,
+        416,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "taya": {
+    "seated_back_type_1": {
+      "bounds": [
+        193,
+        192,
+        383,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        193,
+        192,
+        383,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        187,
+        193,
+        389,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        171,
+        197,
+        404,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "mikhalych": {
+    "seated_back_type_1": {
+      "bounds": [
+        176,
+        185,
+        399,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        180,
+        175,
+        396,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        168,
+        181,
+        407,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        161,
+        191,
+        414,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "owner": {
+    "seated_back_type_1": {
+      "bounds": [
+        178,
+        180,
+        398,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        182,
+        180,
+        393,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        180,
+        183,
+        396,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        162,
+        187,
+        413,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  },
+  "marina": {
+    "seated_back_type_1": {
+      "bounds": [
+        187,
+        153,
+        389,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_type_2": {
+      "bounds": [
+        189,
+        159,
+        386,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_think": {
+      "bounds": [
+        180,
+        153,
+        396,
+        576
+      ],
+      "key_spill_pixels": 0
+    },
+    "seated_back_recline": {
+      "bounds": [
+        172,
+        185,
+        404,
+        576
+      ],
+      "key_spill_pixels": 0
+    }
+  }
+}

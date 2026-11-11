@@ -1,0 +1,94 @@
+{
+  "officeName": "AI Office",
+  "domain": "office.example.com",
+  "agents": [
+    {
+      "id": "assistant",
+      "name": "Ассистент",
+      "emoji": "🎯",
+      "role": "Координатор",
+      "description": "Управляет задачами и координирует команду",
+      "position": {
+        "x": 200,
+        "y": 300
+      }
+    },
+    {
+      "id": "writer",
+      "name": "Копирайтер",
+      "emoji": "✍️",
+      "role": "Тексты",
+      "description": "Пишет посты, статьи, сценарии",
+      "position": {
+        "x": 350,
+        "y": 280
+      }
+    },
+    {
+      "id": "designer",
+      "name": "Дизайнер",
+      "emoji": "🎨",
+      "role": "Визуал",
+      "description": "Генерирует изображения и оформление",
+      "position": {
+        "x": 500,
+        "y": 320
+      }
+    },
+    {
+      "id": "techie",
+      "name": "Технарь",
+      "emoji": "🔧",
+      "role": "Код и деплой",
+      "description": "Код, автоматизации, инфраструктура",
+      "position": {
+        "x": 650,
+        "y": 290
+      }
+    },
+    {
+      "id": "marketer",
+      "name": "Маркетолог",
+      "emoji": "📈",
+      "role": "Аналитика",
+      "description": "Анализ рынка, стратегия продвижения",
+      "position": {
+        "x": 800,
+        "y": 310
+      }
+    }
+  ],
+  "openclaw": {
+    "sessionsBase": "~/.openclaw/agents",
+    "agentMapping": {
+      "main": "assistant",
+      "copywriter": "writer",
+      "designer": "designer",
+      "tech": "techie",
+      "marketer": "marketer"
+    }
+  },
+  "sync": {
+    "idleThresholdMin": 5,
+    "offlineThresholdMin": 30,
+    "intervalSec": 120
+  },
+  "deploy": {
+    "method": "ssh",
+    "host": "your-vps",
+    "user": "root",
+    "remotePath": "/opt/ai-office",
+    "ports": {
+      "app": 3100,
+      "websocket": 3101
+    }
+  },
+  "branding": {
+    "title": "OpenClaw Content Factory",
+    "author": "Макс Галсон",
+    "website": "https://galson.pro",
+    "telegram": "https://t.me/galsonproai",
+    "youtube": "https://youtube.com/@galsonproai",
+    "support": "https://t.me/galsonproAIbot"
+  }
+}

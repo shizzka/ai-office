@@ -1,0 +1,19 @@
+[Unit]
+Description=AI Office web (LAN :3000)
+Requires=ai-office-ws.service
+After=network.target ai-office-ws.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/q/ai-office
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=PATH=/home/q/.config/nvm/versions/node/v22.22.0/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/q/.config/nvm/versions/node/v22.22.0/bin/npm run start -- --hostname 0.0.0.0
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=default.target

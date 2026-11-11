@@ -1,0 +1,6750 @@
+{
+  "version": 2,
+  "image_format": "RGBA PNG",
+  "frame_size": [
+    576,
+    600
+  ],
+  "logical_frame_size": [
+    96,
+    100
+  ],
+  "pixel_ratio": 6,
+  "coordinate_system": "frame top-left; all frame, foot, head and label coordinates are physical pixels",
+  "poses": [
+    "work",
+    "walk",
+    "stretch",
+    "cup"
+  ],
+  "resampling": "original source pixels → chroma key / component segmentation / defringe → one LANCZOS downsample",
+  "heroes": {
+    "yarik": {
+      "name": "Ярик",
+      "image": "yarik.png",
+      "source": "hero-yarik-v3-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-yarik-v3-1.png",
+          "source_bounds": [
+            174,
+            92,
+            699,
+            1269
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-yarik-v3-1.png",
+          "source_bounds": [
+            919,
+            92,
+            1544,
+            1269
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-yarik-v3-1.png",
+          "source_bounds": [
+            1690,
+            92,
+            2458,
+            1269
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-yarik-v3-1.png",
+          "source_bounds": [
+            2493,
+            92,
+            2958,
+            1269
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "anim-yarik-1.png",
+          "source_bounds": [
+            53,
+            115,
+            632,
+            1250
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "anim-yarik-1.png",
+          "source_bounds": [
+            670,
+            115,
+            1101,
+            1243
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "anim-yarik-1.png",
+          "source_bounds": [
+            1109,
+            115,
+            1653,
+            1250
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            148
+          ],
+          "label_anchor": [
+            288,
+            124
+          ],
+          "silhouette_height": 428,
+          "source": "anim-yarik-1.png",
+          "source_bounds": [
+            1683,
+            115,
+            2111,
+            1236
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-yarik-1.png",
+          "source_bounds": [
+            2155,
+            115,
+            2596,
+            1243
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-yarik-1.png",
+          "source_bounds": [
+            2653,
+            115,
+            3096,
+            1243
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-yarik.png",
+          "source_bounds": [
+            92,
+            138,
+            402,
+            743
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-yarik.png",
+          "source_bounds": [
+            574,
+            137,
+            885,
+            743
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            190
+          ],
+          "label_anchor": [
+            288,
+            166
+          ],
+          "silhouette_height": 386,
+          "source": "seated-back-yarik.png",
+          "source_bounds": [
+            1029,
+            134,
+            1356,
+            743
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            194
+          ],
+          "label_anchor": [
+            288,
+            170
+          ],
+          "silhouette_height": 382,
+          "source": "seated-back-yarik.png",
+          "source_bounds": [
+            1465,
+            141,
+            1860,
+            743
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "3e3e508cf5925ec921b6249da4d05fe3f337fd27d9e05cf5b43c08f1f4b2653c",
+      "note": "",
+      "animation_source": "anim-yarik-1.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "67dba6136e6ff7a63414a48ac415d32ba9a9ca4691e7b3965a2eacc43f93f3c8",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Distinct original leg/arm phases; no mirrored or synthesized frames."
+      },
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-yarik.png",
+        "size": [
+          1915,
+          821
+        ],
+        "sha256": "f47dbeae7f268d3818f5a9df75fd9d32d7811ae86f52bcfc800bd7774a0d4bea",
+        "scale": 0.634186622625929,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      }
+    },
+    "leha": {
+      "name": "Лёха",
+      "image": "leha.png",
+      "source": "hero-leha-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            147
+          ],
+          "label_anchor": [
+            288,
+            123
+          ],
+          "silhouette_height": 429,
+          "source": "hero-leha-1.png",
+          "source_bounds": [
+            2463,
+            127,
+            3012,
+            1254
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-leha-1.png",
+          "source_bounds": [
+            1031,
+            120,
+            1540,
+            1255
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "hero-leha-1.png",
+          "source_bounds": [
+            1613,
+            116,
+            2258,
+            1254
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            147
+          ],
+          "label_anchor": [
+            288,
+            123
+          ],
+          "silhouette_height": 429,
+          "source": "hero-leha-1.png",
+          "source_bounds": [
+            2463,
+            127,
+            3012,
+            1254
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "walk2-leha-1.png",
+          "source_bounds": [
+            248,
+            128,
+            776,
+            1263
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "walk2-leha-1.png",
+          "source_bounds": [
+            1044,
+            120,
+            1445,
+            1256
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "walk2-leha-1.png",
+          "source_bounds": [
+            1736,
+            127,
+            2246,
+            1266
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            146
+          ],
+          "label_anchor": [
+            288,
+            122
+          ],
+          "silhouette_height": 430,
+          "source": "walk2-leha-1.png",
+          "source_bounds": [
+            2523,
+            125,
+            2925,
+            1256
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            147
+          ],
+          "label_anchor": [
+            288,
+            123
+          ],
+          "silhouette_height": 429,
+          "source": "anim-leha-2.png",
+          "source_bounds": [
+            2199,
+            126,
+            2646,
+            1254
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            147
+          ],
+          "label_anchor": [
+            288,
+            123
+          ],
+          "silhouette_height": 429,
+          "source": "anim-leha-2.png",
+          "source_bounds": [
+            2673,
+            126,
+            3140,
+            1254
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-leha.png",
+          "source_bounds": [
+            94,
+            139,
+            398,
+            741
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-leha.png",
+          "source_bounds": [
+            581,
+            139,
+            886,
+            741
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-leha.png",
+          "source_bounds": [
+            1033,
+            139,
+            1358,
+            741
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            201
+          ],
+          "label_anchor": [
+            288,
+            177
+          ],
+          "silhouette_height": 375,
+          "source": "seated-back-leha.png",
+          "source_bounds": [
+            1477,
+            153,
+            1861,
+            741
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "4fd276b54fa5a1535cfce4b526274683f4a305d0bfaf3f2df0d3cfb9f92a0293",
+      "note": "Work uses cup pose: original furniture obscures character.",
+      "animation_source": "anim-leha-2.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "687210eef96213be2ade8cace9d8a136ba0df766f20f914da4a33d4259620d90",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Selected OFFICE-16 walk2; original four leg phases, common scale and foot baseline."
+      },
+      "walk_source": "walk2-leha-1.png",
+      "walk_source_sha256": "b7543ee178b7ef86c42ac3c7b69a06df6d212fb643851158be748ea3d190774d",
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-leha.png",
+        "size": [
+          1916,
+          821
+        ],
+        "sha256": "f00a48cbb8b7d4d889327575c5c57677514e66a3db0482d61c5c0f51b5139e1a",
+        "scale": 0.6378737541528239,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      }
+    },
+    "asya": {
+      "name": "Ася",
+      "image": "asya.png",
+      "source": "hero-asya-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-asya-1.png",
+          "source_bounds": [
+            938,
+            129,
+            1490,
+            1245
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-asya-1.png",
+          "source_bounds": [
+            938,
+            129,
+            1490,
+            1245
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            136
+          ],
+          "label_anchor": [
+            288,
+            112
+          ],
+          "silhouette_height": 440,
+          "source": "hero-asya-1.png",
+          "source_bounds": [
+            1640,
+            119,
+            2390,
+            1255
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-asya-1.png",
+          "source_bounds": [
+            938,
+            129,
+            1490,
+            1245
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            142
+          ],
+          "label_anchor": [
+            288,
+            118
+          ],
+          "silhouette_height": 434,
+          "source": "anim-asya-1.png",
+          "source_bounds": [
+            59,
+            128,
+            534,
+            1257
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            142
+          ],
+          "label_anchor": [
+            288,
+            118
+          ],
+          "silhouette_height": 434,
+          "source": "anim-asya-1.png",
+          "source_bounds": [
+            571,
+            128,
+            1036,
+            1257
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            146
+          ],
+          "label_anchor": [
+            288,
+            122
+          ],
+          "silhouette_height": 430,
+          "source": "anim-asya-1.png",
+          "source_bounds": [
+            1075,
+            128,
+            1560,
+            1247
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            146
+          ],
+          "label_anchor": [
+            288,
+            122
+          ],
+          "silhouette_height": 430,
+          "source": "anim-asya-1.png",
+          "source_bounds": [
+            1570,
+            128,
+            2035,
+            1247
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-asya-1.png",
+          "source_bounds": [
+            2084,
+            109,
+            2569,
+            1258
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-asya-1.png",
+          "source_bounds": [
+            2620,
+            109,
+            3106,
+            1258
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            154
+          ],
+          "label_anchor": [
+            288,
+            130
+          ],
+          "silhouette_height": 422,
+          "source": "seated-back-asya.png",
+          "source_bounds": [
+            98,
+            110,
+            410,
+            748
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            158
+          ],
+          "label_anchor": [
+            288,
+            134
+          ],
+          "silhouette_height": 418,
+          "source": "seated-back-asya.png",
+          "source_bounds": [
+            570,
+            117,
+            887,
+            748
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            154
+          ],
+          "label_anchor": [
+            288,
+            130
+          ],
+          "silhouette_height": 422,
+          "source": "seated-back-asya.png",
+          "source_bounds": [
+            1032,
+            110,
+            1379,
+            748
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            179
+          ],
+          "label_anchor": [
+            288,
+            155
+          ],
+          "silhouette_height": 397,
+          "source": "seated-back-asya.png",
+          "source_bounds": [
+            1470,
+            148,
+            1862,
+            748
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "37ac11b3dbfae9dbce7c31b02262f56afdf53fe87a01f048c2ab8422f476af9a",
+      "note": "Asya: work and cup use step due to background contamination.",
+      "animation_source": "anim-asya-1.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "bdf00d0e1c4a0f2c5ebb988b2b9e44c88462df3c915c5038bd01b24a7f57c618",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Distinct original leg/arm phases; no mirrored or synthesized frames."
+      },
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-asya.png",
+        "size": [
+          1916,
+          821
+        ],
+        "sha256": "dacf53c4e6da4f887b77cea67635bc45e577517736f625ae8fae68455b919f52",
+        "scale": 0.6619385342789598,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      }
+    },
+    "ivanych": {
+      "name": "Иваныч",
+      "image": "ivanych.png",
+      "source": "hero-ivanych-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "hero-ivanych-1.png",
+          "source_bounds": [
+            2421,
+            139,
+            3016,
+            1319
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-ivanych-1.png",
+          "source_bounds": [
+            883,
+            139,
+            1512,
+            1316
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            107
+          ],
+          "label_anchor": [
+            288,
+            83
+          ],
+          "silhouette_height": 469,
+          "source": "hero-ivanych-1.png",
+          "source_bounds": [
+            1571,
+            40,
+            2321,
+            1319
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "hero-ivanych-1.png",
+          "source_bounds": [
+            2421,
+            139,
+            3016,
+            1319
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "anim-ivanych-2.png",
+          "source_bounds": [
+            23,
+            124,
+            579,
+            1304
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            146
+          ],
+          "label_anchor": [
+            288,
+            122
+          ],
+          "silhouette_height": 430,
+          "source": "anim-ivanych-2.png",
+          "source_bounds": [
+            560,
+            113,
+            1114,
+            1275
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "anim-ivanych-2.png",
+          "source_bounds": [
+            1054,
+            124,
+            1612,
+            1304
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            150
+          ],
+          "label_anchor": [
+            288,
+            126
+          ],
+          "silhouette_height": 426,
+          "source": "anim-ivanych-2.png",
+          "source_bounds": [
+            1606,
+            125,
+            1997,
+            1276
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "anim-ivanych-2.png",
+          "source_bounds": [
+            2002,
+            124,
+            2583,
+            1321
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "anim-ivanych-2.png",
+          "source_bounds": [
+            2577,
+            124,
+            3156,
+            1321
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            191
+          ],
+          "label_anchor": [
+            288,
+            167
+          ],
+          "silhouette_height": 385,
+          "source": "seated-back-ivanych.png",
+          "source_bounds": [
+            79,
+            145,
+            413,
+            725
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            193
+          ],
+          "label_anchor": [
+            288,
+            169
+          ],
+          "silhouette_height": 383,
+          "source": "seated-back-ivanych.png",
+          "source_bounds": [
+            549,
+            149,
+            880,
+            725
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            191
+          ],
+          "label_anchor": [
+            288,
+            167
+          ],
+          "silhouette_height": 385,
+          "source": "seated-back-ivanych.png",
+          "source_bounds": [
+            1021,
+            145,
+            1364,
+            725
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            199
+          ],
+          "label_anchor": [
+            288,
+            175
+          ],
+          "silhouette_height": 377,
+          "source": "seated-back-ivanych.png",
+          "source_bounds": [
+            1483,
+            157,
+            1868,
+            725
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        },
+        "chair_walk_1": {
+          "x": 0,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            346,
+            147
+          ],
+          "label_anchor": [
+            288,
+            123
+          ],
+          "silhouette_height": 429,
+          "source": "ivanych-chair.png",
+          "source_index": 0,
+          "source_pose": "chair_walk_1",
+          "source_bounds": [
+            42,
+            116,
+            447,
+            711
+          ],
+          "source_scale": 0.7216666666666667,
+          "source_foot": [
+            159,
+            712
+          ],
+          "source_head": [
+            239,
+            117
+          ]
+        },
+        "chair_walk_2": {
+          "x": 576,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            322,
+            142
+          ],
+          "label_anchor": [
+            288,
+            118
+          ],
+          "silhouette_height": 434,
+          "source": "ivanych-chair.png",
+          "source_index": 1,
+          "source_pose": "chair_walk_2",
+          "source_bounds": [
+            507,
+            117,
+            913,
+            718
+          ],
+          "source_scale": 0.7216666666666667,
+          "source_foot": [
+            633,
+            718
+          ],
+          "source_head": [
+            680,
+            117
+          ]
+        },
+        "chair_place": {
+          "x": 1152,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            350,
+            181
+          ],
+          "label_anchor": [
+            288,
+            157
+          ],
+          "silhouette_height": 410,
+          "ground_extent": 591,
+          "source": "ivanych-chair.png",
+          "source_index": 2,
+          "source_pose": "chair_place",
+          "source_bounds": [
+            983,
+            152,
+            1499,
+            720
+          ],
+          "source_scale": 0.7216666666666667,
+          "source_foot": [
+            1150,
+            700
+          ],
+          "source_head": [
+            1236,
+            152
+          ]
+        },
+        "chair_rest": {
+          "x": 1728,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            250,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 434,
+          "source": "ivanych-chair.png",
+          "source_index": 3,
+          "source_pose": "chair_rest",
+          "source_bounds": [
+            1526,
+            107,
+            1843,
+            709
+          ],
+          "source_scale": 0.7216666666666667,
+          "source_foot": [
+            1721,
+            708
+          ],
+          "source_head": [
+            1669,
+            108
+          ]
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "4ce0d2429cd08e601f29d7259f2f63b3ed765476da38326e2a74e02771911d43",
+      "note": "Work uses cup pose: original furniture obscures character.",
+      "animation_source": "anim-ivanych-2.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "66e4decdc687fb0f546e7c360a6c41b1ad3bc4618447b2e5f99dd8dc7d6c4369",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Distinct original leg/arm phases; no mirrored or synthesized frames."
+      },
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-ivanych.png",
+        "size": [
+          1915,
+          821
+        ],
+        "sha256": "b0826c2bac4d35380225b2afdcc67d19ab6f66729c635dd6622e589634c49f48",
+        "scale": 0.6643598615916955,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      },
+      "office23_art": {
+        "source": "ivanych-chair.png",
+        "source_sha256": "7a7651b4eebd94f6a250bfd06bf8a7c8c688f3ee4eb0424b6a98e01dc7f8e181",
+        "frames": [
+          "chair_walk_1",
+          "chair_walk_2",
+          "chair_place",
+          "chair_rest"
+        ],
+        "reference_pose": "chair_rest",
+        "body_height": 433,
+        "source_scale": 0.7216666666666667,
+        "previous_frame_hashes": {
+          "work": "659c3421ea17ef7e8d844082bedbf0a5d7b3e6113b61dfc67f0e7cf442cdbb19",
+          "walk": "c7d24579832a91731d95e29e1e847a7a9a571a098368495ac40ed3f8222f1efa",
+          "stretch": "16f77cc34d236e309a511a30486197c7eeec85fcbeba36d597ed5be45afac548",
+          "cup": "659c3421ea17ef7e8d844082bedbf0a5d7b3e6113b61dfc67f0e7cf442cdbb19",
+          "walk_1": "bee681baa6f17039695fb9fcb54a892a0025778ff33aae95464cf1645a13ae9b",
+          "walk_2": "2dd1c3f9eb20adbe9deb34f66864c9c32ea77b6a4d4382887b6103372d124f5b",
+          "walk_3": "4cdc39a9f11bb0cb1be7771abeae2dcc12ef4ece1ca91077c1be3b235433eda9",
+          "walk_4": "6dc79e9561f4419a13be4c132496e14382cca51e43e96d7c0efae8df19c46e3c",
+          "typing_1": "eb7dff795bc0d8076a02ff1cf6ba14d052b32432c32e2aeea3cbaab118427d7e",
+          "typing_2": "d8b4506d05c4f77dd83cedb94d643b1fe345c327969e08ee82d15427fe3e4c04",
+          "seated_back_type_1": "2be2e9668296bcfc48a29f50d02f50094e6b9f1a3ac09c18423230ee35de5116",
+          "seated_back_type_2": "785c1821ee31403f0b8bff62083439b93226d3436142dac066708a26892a23bc",
+          "seated_back_think": "e9f2b0a58c5d194841b3c952cb60cb6ec12fc034dc70d67a0b5d02c286169056",
+          "seated_back_recline": "63990087be1c5fb68236bf143b142d7634110b7deb715a7607a381bd8e37ef7b"
+        }
+      }
+    },
+    "taya": {
+      "name": "Тая",
+      "image": "taya.png",
+      "source": "hero-taya-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-taya-1.png",
+          "source_bounds": [
+            206,
+            115,
+            770,
+            1264
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-taya-1.png",
+          "source_bounds": [
+            891,
+            115,
+            1528,
+            1264
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-taya-1.png",
+          "source_bounds": [
+            1702,
+            114,
+            2219,
+            1264
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-taya-1.png",
+          "source_bounds": [
+            2455,
+            115,
+            2886,
+            1264
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "walk2-taya-1.png",
+          "source_bounds": [
+            102,
+            116,
+            742,
+            1266
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "walk2-taya-1.png",
+          "source_bounds": [
+            1034,
+            116,
+            1431,
+            1266
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            147
+          ],
+          "label_anchor": [
+            288,
+            123
+          ],
+          "silhouette_height": 429,
+          "source": "walk2-taya-1.png",
+          "source_bounds": [
+            1628,
+            116,
+            2269,
+            1259
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "walk2-taya-1.png",
+          "source_bounds": [
+            2394,
+            116,
+            2932,
+            1266
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-taya-1.png",
+          "source_bounds": [
+            2089,
+            115,
+            2591,
+            1264
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            148
+          ],
+          "label_anchor": [
+            288,
+            124
+          ],
+          "silhouette_height": 428,
+          "source": "anim-taya-1.png",
+          "source_bounds": [
+            2582,
+            126,
+            3088,
+            1264
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-taya.png",
+          "source_bounds": [
+            91,
+            138,
+            388,
+            737
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            192
+          ],
+          "label_anchor": [
+            288,
+            168
+          ],
+          "silhouette_height": 384,
+          "source": "seated-back-taya.png",
+          "source_bounds": [
+            572,
+            138,
+            869,
+            737
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            193
+          ],
+          "label_anchor": [
+            288,
+            169
+          ],
+          "silhouette_height": 383,
+          "source": "seated-back-taya.png",
+          "source_bounds": [
+            1029,
+            140,
+            1344,
+            737
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            197
+          ],
+          "label_anchor": [
+            288,
+            173
+          ],
+          "silhouette_height": 379,
+          "source": "seated-back-taya.png",
+          "source_bounds": [
+            1495,
+            146,
+            1859,
+            737
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "c2c6d97b58661921005108fa9e5af280a8b89a408f2e1b4006353f3a9c396482",
+      "note": "",
+      "animation_source": "anim-taya-1.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "20d4f23b718071fcb180e4ae3c16e25565274eb08d2258c1014e00a22478479d",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Selected OFFICE-16 walk2; original four leg phases, common scale and foot baseline."
+      },
+      "walk_source": "walk2-taya-1.png",
+      "walk_source_sha256": "b9e27064ba8664326628fc2ca5d848672cbb54c14359e354cdb3dd9bacebf0e2",
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-taya.png",
+        "size": [
+          1915,
+          821
+        ],
+        "sha256": "fb34b5e762fcc5e6d109de165ec961f66719c3ec857238d48a6afe744bacb929",
+        "scale": 0.6410684474123539,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      }
+    },
+    "sanya": {
+      "name": "Саня",
+      "image": "sanya.png",
+      "source": "hero-sanya-v2-3.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-sanya-v2-3.png",
+          "source_bounds": [
+            210,
+            93,
+            811,
+            1269
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-sanya-v2-3.png",
+          "source_bounds": [
+            971,
+            93,
+            1474,
+            1269
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            142
+          ],
+          "label_anchor": [
+            288,
+            118
+          ],
+          "silhouette_height": 434,
+          "source": "hero-sanya-v2-3.png",
+          "source_bounds": [
+            1610,
+            86,
+            2314,
+            1269
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-sanya-v2-3.png",
+          "source_bounds": [
+            2454,
+            92,
+            3011,
+            1269
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "walk2-sanya-1.png",
+          "source_bounds": [
+            208,
+            92,
+            758,
+            1263
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "walk2-sanya-1.png",
+          "source_bounds": [
+            971,
+            92,
+            1431,
+            1269
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "walk2-sanya-1.png",
+          "source_bounds": [
+            1723,
+            92,
+            2295,
+            1262
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "walk2-sanya-1.png",
+          "source_bounds": [
+            2504,
+            92,
+            2968,
+            1269
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "seated_type_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "sanya-seated-1.png",
+          "source_bounds": [
+            178,
+            99,
+            762,
+            1274
+          ],
+          "source_pose": "seated_type_1",
+          "source_index": 0
+        },
+        "seated_type_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            148
+          ],
+          "label_anchor": [
+            288,
+            124
+          ],
+          "silhouette_height": 428,
+          "source": "sanya-seated-1.png",
+          "source_bounds": [
+            958,
+            107,
+            1542,
+            1274
+          ],
+          "source_pose": "seated_type_2",
+          "source_index": 1
+        },
+        "seated_think": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            141
+          ],
+          "label_anchor": [
+            288,
+            117
+          ],
+          "silhouette_height": 435,
+          "source": "sanya-seated-1.png",
+          "source_bounds": [
+            1718,
+            88,
+            2301,
+            1274
+          ],
+          "source_pose": "seated_think",
+          "source_index": 2
+        },
+        "seated_victory": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "sanya-seated-1.png",
+          "source_bounds": [
+            2342,
+            91,
+            3074,
+            1274
+          ],
+          "source_pose": "seated_victory",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "sanya-seated-1.png",
+          "source_bounds": [
+            178,
+            99,
+            762,
+            1274
+          ],
+          "source_pose": "seated_type_1",
+          "source_index": 0
+        },
+        "typing_2": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            148
+          ],
+          "label_anchor": [
+            288,
+            124
+          ],
+          "silhouette_height": 428,
+          "source": "sanya-seated-1.png",
+          "source_bounds": [
+            958,
+            107,
+            1542,
+            1274
+          ],
+          "source_pose": "seated_type_2",
+          "source_index": 1
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "f39c1e5bba68baeec93dddd065959141bb83a77fa6eb2f202677a33dc3cb54cc",
+      "note": "OFFICE-17 full-source component extraction; seated poses face front.",
+      "animation_source": "sanya-seated-1.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "fdaa7bf5b2864a40e31b86b1dafe60118c0b80143b2e7e873ea593e2dbc0b6cf",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Four original walk2 phases, one scale and foot baseline."
+      },
+      "walk_source": "walk2-sanya-1.png",
+      "walk_source_sha256": "73b55e4c43cf69be5a0949ac926874651e3e804ac80a732d747459261f879fdc",
+      "seated": [
+        "seated_type_1",
+        "seated_type_2",
+        "seated_think",
+        "seated_victory"
+      ],
+      "seated_scene_scale": 1.5277777777777777
+    },
+    "motya": {
+      "name": "Мотя",
+      "image": "motya.png",
+      "source": "hero-motya-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            186
+          ],
+          "label_anchor": [
+            288,
+            162
+          ],
+          "silhouette_height": 390,
+          "source": "hero-motya-1.png",
+          "source_bounds": [
+            177,
+            236,
+            790,
+            1172
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            186
+          ],
+          "label_anchor": [
+            288,
+            162
+          ],
+          "silhouette_height": 390,
+          "source": "hero-motya-1.png",
+          "source_bounds": [
+            880,
+            236,
+            1579,
+            1172
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            186
+          ],
+          "label_anchor": [
+            288,
+            162
+          ],
+          "silhouette_height": 390,
+          "source": "hero-motya-1.png",
+          "source_bounds": [
+            1534,
+            235,
+            2301,
+            1171
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            195
+          ],
+          "label_anchor": [
+            288,
+            171
+          ],
+          "silhouette_height": 381,
+          "source": "hero-motya-1.png",
+          "source_bounds": [
+            2365,
+            236,
+            3067,
+            1151
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "24abb6f13ffd3afbff6d9c243228fbac1217d37151e43c208f33593af84073d9",
+      "note": "",
+      "walk_cycle": [
+        "walk"
+      ],
+      "animation_note": "Not active in the scene; base poses retained only."
+    },
+    "mikhalych": {
+      "name": "whoami",
+      "image": "mikhalych.png",
+      "source": "hero-whoami-gpt-2.png",
+      "source_size": [
+        1923,
+        817
+      ],
+      "source_sha256": "72fdd54ea41e17bb156fe74a0f337d5db90fd214665836faea045a504c6cb2a6",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-whoami-gpt-2.png",
+          "source_bounds": [
+            93,
+            62,
+            484,
+            767
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-whoami-gpt-2.png",
+          "source_bounds": [
+            577,
+            62,
+            985,
+            767
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            150
+          ],
+          "label_anchor": [
+            288,
+            126
+          ],
+          "silhouette_height": 426,
+          "source": "hero-whoami-gpt-2.png",
+          "source_bounds": [
+            1036,
+            68,
+            1395,
+            763
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            146
+          ],
+          "label_anchor": [
+            288,
+            122
+          ],
+          "silhouette_height": 430,
+          "source": "hero-whoami-gpt-2.png",
+          "source_bounds": [
+            1516,
+            63,
+            1826,
+            765
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            185
+          ],
+          "label_anchor": [
+            288,
+            161
+          ],
+          "silhouette_height": 391,
+          "source": "seated-back-whoami.png",
+          "source_bounds": [
+            88,
+            146,
+            428,
+            742
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            175
+          ],
+          "label_anchor": [
+            288,
+            151
+          ],
+          "silhouette_height": 401,
+          "source": "seated-back-whoami.png",
+          "source_bounds": [
+            558,
+            143,
+            886,
+            753
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            181
+          ],
+          "label_anchor": [
+            288,
+            157
+          ],
+          "silhouette_height": 395,
+          "source": "seated-back-whoami.png",
+          "source_bounds": [
+            1012,
+            151,
+            1376,
+            753
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            191
+          ],
+          "label_anchor": [
+            288,
+            167
+          ],
+          "silhouette_height": 385,
+          "source": "seated-back-whoami.png",
+          "source_bounds": [
+            1480,
+            158,
+            1866,
+            745
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        }
+      },
+      "walk_cycle": [
+        "walk"
+      ],
+      "walk_review": {
+        "status": "fallback",
+        "reason": "Owner-supplied four poses; no approved walk cycle. Use walk with distance-driven bob and direction-only reflection."
+      },
+      "note": "OFFICE-18b: four owner-supplied GPT poses; original head/body proportions retained. No legacy walk or typing frames.",
+      "height_normalization": {
+        "references": [
+          "leha",
+          "ivanych"
+        ],
+        "target_height_px": 432.0,
+        "source_height_px": 705,
+        "scale": 0.6127659574468085
+      },
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-whoami.png",
+        "size": [
+          1916,
+          821
+        ],
+        "sha256": "2a62a0b165b89c86e1140acddf434ebaa8254a0ac5d0fc2d8db6960e1dab59ab",
+        "scale": 0.6567164179104478,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      }
+    },
+    "lyuda": {
+      "name": "Люда",
+      "image": "lyuda.png",
+      "source": "hero-lyuda-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-lyuda-1.png",
+          "source_bounds": [
+            2543,
+            127,
+            2989,
+            1257
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-lyuda-1.png",
+          "source_bounds": [
+            1163,
+            127,
+            1691,
+            1257
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "hero-lyuda-1.png",
+          "source_bounds": [
+            1772,
+            117,
+            2318,
+            1257
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-lyuda-1.png",
+          "source_bounds": [
+            2543,
+            127,
+            2989,
+            1257
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "d9476547d85967fcb99bb74b0d636918716aee7231c141304f088c1c6c19d8c3",
+      "note": "Work uses cup pose: original furniture obscures character.",
+      "walk_cycle": [
+        "walk"
+      ],
+      "animation_note": "Not active in the scene; base poses retained only."
+    },
+    "sharik": {
+      "name": "Шарик",
+      "image": "sharik.png",
+      "source": "hero-sharik-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            266
+          ],
+          "label_anchor": [
+            288,
+            242
+          ],
+          "silhouette_height": 310,
+          "source": "hero-sharik-1.png",
+          "source_bounds": [
+            2538,
+            173,
+            3057,
+            1231
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            270
+          ],
+          "label_anchor": [
+            288,
+            246
+          ],
+          "silhouette_height": 306,
+          "source": "hero-sharik-1.png",
+          "source_bounds": [
+            1147,
+            173,
+            1740,
+            1219
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            246
+          ],
+          "label_anchor": [
+            288,
+            222
+          ],
+          "silhouette_height": 330,
+          "source": "hero-sharik-1.png",
+          "source_bounds": [
+            1700,
+            103,
+            2518,
+            1231
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            266
+          ],
+          "label_anchor": [
+            288,
+            242
+          ],
+          "silhouette_height": 310,
+          "source": "hero-sharik-1.png",
+          "source_bounds": [
+            2538,
+            173,
+            3057,
+            1231
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "c0dfccd513a78944364b09abd6f4757b90d127c683f17244bb8a8d1ed4e4cc5a",
+      "note": "Work uses cup pose: original furniture obscures character.",
+      "walk_cycle": [
+        "walk"
+      ],
+      "animation_note": "Not active in the scene; base poses retained only."
+    },
+    "owner": {
+      "name": "Евгений",
+      "image": "owner.png",
+      "source": "hero-owner-2.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-owner-2.png",
+          "source_bounds": [
+            117,
+            92,
+            860,
+            1269
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-owner-2.png",
+          "source_bounds": [
+            919,
+            92,
+            1544,
+            1269
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-owner-2.png",
+          "source_bounds": [
+            1683,
+            92,
+            2360,
+            1269
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-owner-2.png",
+          "source_bounds": [
+            2450,
+            92,
+            2950,
+            1269
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "anim-owner-2.png",
+          "source_bounds": [
+            41,
+            80,
+            633,
+            1265
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            148
+          ],
+          "label_anchor": [
+            288,
+            124
+          ],
+          "silhouette_height": 428,
+          "source": "anim-owner-2.png",
+          "source_bounds": [
+            598,
+            80,
+            1064,
+            1243
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            151
+          ],
+          "label_anchor": [
+            288,
+            127
+          ],
+          "silhouette_height": 425,
+          "source": "anim-owner-2.png",
+          "source_bounds": [
+            1097,
+            80,
+            1551,
+            1236
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "anim-owner-2.png",
+          "source_bounds": [
+            1589,
+            80,
+            2061,
+            1265
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-owner-2.png",
+          "source_bounds": [
+            2082,
+            80,
+            2608,
+            1265
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "anim-owner-2.png",
+          "source_bounds": [
+            2574,
+            80,
+            3126,
+            1265
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            180
+          ],
+          "label_anchor": [
+            288,
+            156
+          ],
+          "silhouette_height": 396,
+          "source": "seated-back-owner.png",
+          "source_bounds": [
+            86,
+            141,
+            422,
+            745
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            180
+          ],
+          "label_anchor": [
+            288,
+            156
+          ],
+          "silhouette_height": 396,
+          "source": "seated-back-owner.png",
+          "source_bounds": [
+            569,
+            141,
+            891,
+            745
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            183
+          ],
+          "label_anchor": [
+            288,
+            159
+          ],
+          "silhouette_height": 393,
+          "source": "seated-back-owner.png",
+          "source_bounds": [
+            1025,
+            146,
+            1354,
+            745
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            187
+          ],
+          "label_anchor": [
+            288,
+            163
+          ],
+          "silhouette_height": 389,
+          "source": "seated-back-owner.png",
+          "source_bounds": [
+            1485,
+            151,
+            1869,
+            745
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        },
+        "owner_breaker": {
+          "x": 0,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            328,
+            135
+          ],
+          "label_anchor": [
+            288,
+            111
+          ],
+          "silhouette_height": 442,
+          "source": "owner-features.png",
+          "source_index": 0,
+          "source_pose": "owner_breaker",
+          "source_bounds": [
+            179,
+            30,
+            455,
+            413
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            331,
+            413
+          ],
+          "source_head": [
+            366,
+            31
+          ]
+        },
+        "owner_clap": {
+          "x": 576,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            257,
+            134
+          ],
+          "label_anchor": [
+            288,
+            110
+          ],
+          "silhouette_height": 444,
+          "source": "owner-features.png",
+          "source_index": 1,
+          "source_pose": "owner_clap",
+          "source_bounds": [
+            619,
+            30,
+            877,
+            414
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            737,
+            414
+          ],
+          "source_head": [
+            710,
+            31
+          ]
+        },
+        "owner_point": {
+          "x": 1152,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            303,
+            134
+          ],
+          "label_anchor": [
+            288,
+            110
+          ],
+          "silhouette_height": 444,
+          "source": "owner-features.png",
+          "source_index": 2,
+          "source_pose": "owner_point",
+          "source_bounds": [
+            979,
+            30,
+            1337,
+            414
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            1188,
+            414
+          ],
+          "source_head": [
+            1201,
+            31
+          ]
+        },
+        "owner_pizza": {
+          "x": 1728,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            276,
+            134
+          ],
+          "label_anchor": [
+            288,
+            110
+          ],
+          "silhouette_height": 445,
+          "source": "owner-features.png",
+          "source_index": 3,
+          "source_pose": "owner_pizza",
+          "source_bounds": [
+            1493,
+            29,
+            1799,
+            414
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            1602,
+            414
+          ],
+          "source_head": [
+            1592,
+            31
+          ]
+        },
+        "owner_eat": {
+          "x": 2304,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            327,
+            146
+          ],
+          "label_anchor": [
+            288,
+            122
+          ],
+          "silhouette_height": 432,
+          "source": "owner-features.png",
+          "source_index": 4,
+          "source_pose": "owner_eat",
+          "source_bounds": [
+            170,
+            431,
+            409,
+            805
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            290,
+            803
+          ],
+          "source_head": [
+            324,
+            431
+          ]
+        },
+        "owner_peek": {
+          "x": 2880,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            362,
+            167
+          ],
+          "label_anchor": [
+            288,
+            143
+          ],
+          "silhouette_height": 412,
+          "source": "owner-features.png",
+          "source_index": 5,
+          "source_pose": "owner_peek",
+          "source_bounds": [
+            629,
+            446,
+            913,
+            803
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            733,
+            802
+          ],
+          "source_head": [
+            797,
+            448
+          ]
+        },
+        "owner_skeptic": {
+          "x": 0,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            257,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 433,
+          "source": "owner-features.png",
+          "source_index": 6,
+          "source_pose": "owner_skeptic",
+          "source_bounds": [
+            1062,
+            430,
+            1260,
+            805
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            1178,
+            803
+          ],
+          "source_head": [
+            1151,
+            430
+          ]
+        },
+        "owner_shrug": {
+          "x": 576,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            253,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 433,
+          "source": "owner-features.png",
+          "source_index": 7,
+          "source_pose": "owner_shrug",
+          "source_bounds": [
+            1428,
+            430,
+            1768,
+            805
+          ],
+          "source_scale": 1.1550802139037433,
+          "source_foot": [
+            1618,
+            804
+          ],
+          "source_head": [
+            1588,
+            430
+          ]
+        },
+        "owner_point_back": {
+          "x": 0,
+          "y": 3000,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 512,
+          "source": "office23b/owner-point-back-source.png",
+          "source_pose": "owner_point_back",
+          "source_bounds": [
+            37,
+            29,
+            1157,
+            1256
+          ]
+        },
+        "owner_sleep_forward": {
+          "x": 576,
+          "y": 3000,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            155
+          ],
+          "label_anchor": [
+            288,
+            131
+          ],
+          "silhouette_height": 421,
+          "source": "office24/owner-night.png",
+          "source_bounds": [
+            71,
+            179,
+            398,
+            741
+          ],
+          "source_pose": "owner_sleep_forward",
+          "source_index": 0
+        },
+        "owner_sleep_back": {
+          "x": 1152,
+          "y": 3000,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "office24/owner-night.png",
+          "source_bounds": [
+            569,
+            158,
+            914,
+            741
+          ],
+          "source_pose": "owner_sleep_back",
+          "source_index": 1
+        },
+        "owner_wake": {
+          "x": 1728,
+          "y": 3000,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            41
+          ],
+          "label_anchor": [
+            288,
+            17
+          ],
+          "silhouette_height": 535,
+          "source": "office24/owner-night.png",
+          "source_bounds": [
+            958,
+            26,
+            1434,
+            741
+          ],
+          "source_pose": "owner_wake",
+          "source_index": 2
+        },
+        "owner_yawn": {
+          "x": 2304,
+          "y": 3000,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            110
+          ],
+          "label_anchor": [
+            288,
+            86
+          ],
+          "silhouette_height": 466,
+          "source": "office24/owner-night.png",
+          "source_bounds": [
+            1499,
+            119,
+            1873,
+            741
+          ],
+          "source_pose": "owner_yawn",
+          "source_index": 3
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "75750db01a1aafe61923260a5ce59f11e820e7fc6e7fdf9974f6469e74475eda",
+      "note": "",
+      "animation_source": "anim-owner-2.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "0386e0181aaf20f081d0805747e61ed922b439255b0a9fb68f104ff158b40b40",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Distinct original leg/arm phases; no mirrored or synthesized frames."
+      },
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-owner.png",
+        "size": [
+          1915,
+          821
+        ],
+        "sha256": "7972032eecabcfdab3cc52eebdbb5907adb78ee00fb895a81b1129e3448dfafa",
+        "scale": 0.6556291390728477,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      },
+      "office23_art": {
+        "source": "owner-features.png",
+        "source_sha256": "be00a891aa613259c4ade83a7ba99bc7bd461edb30c787693a252b90d6302308",
+        "frames": [
+          "owner_breaker",
+          "owner_clap",
+          "owner_point",
+          "owner_pizza",
+          "owner_eat",
+          "owner_peek",
+          "owner_skeptic",
+          "owner_shrug"
+        ],
+        "reference_pose": "owner_shrug",
+        "body_height": 432,
+        "source_scale": 1.1550802139037433,
+        "previous_frame_hashes": {
+          "work": "4ece003f4023e7cfddf2623d18d4d9bb64c3e117ca7c9093e164cf9fca3b7a11",
+          "walk": "f38d199c04784456a77473291cc18a7bd99e18ba01e2f6b1949e5d92d7b29dc0",
+          "stretch": "46b2bea7acfebbb9ee97234a5ccd7d7d83f55726165073b8c3dd7f6030e5179a",
+          "cup": "3567e58bd03192d42d4cdd6c9437e234cd01bace8fb8e368a9975b5e24c4ab10",
+          "walk_1": "e75e134f2fcd36043312de1c90db0892fceea3438de4e2618e755927e8bd974f",
+          "walk_2": "8e724499625f05ece3b1a0c540cd19c8f43d6cfd961d79e5e2d6be6914a43e3d",
+          "walk_3": "9cd4662138c4b64da9c1fcd487dd72c51c3089ec2e77aa86a4d9909441c68cca",
+          "walk_4": "b8a1a48a99d54bafbaf9fbb09a82bd24d23c1ef959ebb0f8a7e459680ffbf08e",
+          "typing_1": "d05e16845f48f4e0e1ba3316b0fe144d7e44ff9ea3084126faf48ae4a54c37bb",
+          "typing_2": "652900aa0224763fd8e71e3aba5fb78a0904a9dfc16ace286717f1c60292164b",
+          "seated_back_type_1": "52138647f08bb02f6fd7f6ad1d3e365a2f15fca0e847aa497eeb5dfc8ecf9d77",
+          "seated_back_type_2": "4cf867835d613e9bf29c2fccb5b13cf7237187a64f220c934dbdf161334d0300",
+          "seated_back_think": "09ba64875d49274dd6d537d22dfaa01e53cfd0fee3634fe8dae64aaac9786a2f",
+          "seated_back_recline": "bb85b461a200ba9549de0aff8e8fbe3f2137199874d60addb94439bc017094b0"
+        }
+      }
+    },
+    "marina": {
+      "name": "Марина",
+      "image": "marina.png",
+      "source": "hero-marina-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "hero-marina-1.png",
+          "source_bounds": [
+            271,
+            106,
+            833,
+            1275
+          ],
+          "source_pose": "work",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "hero-marina-1.png",
+          "source_bounds": [
+            1023,
+            113,
+            1504,
+            1270
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            112
+          ],
+          "label_anchor": [
+            288,
+            88
+          ],
+          "silhouette_height": 464,
+          "source": "hero-marina-1.png",
+          "source_bounds": [
+            1734,
+            44,
+            2283,
+            1288
+          ],
+          "source_pose": "stretch",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "hero-marina-1.png",
+          "source_bounds": [
+            2510,
+            108,
+            2901,
+            1275
+          ],
+          "source_pose": "cup",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "walk2-marina-1.png",
+          "source_bounds": [
+            212,
+            109,
+            699,
+            1282
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "walk2-marina-1.png",
+          "source_bounds": [
+            1052,
+            109,
+            1399,
+            1289
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "walk2-marina-1.png",
+          "source_bounds": [
+            1776,
+            109,
+            2262,
+            1282
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "walk2-marina-1.png",
+          "source_bounds": [
+            2591,
+            109,
+            2939,
+            1289
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "typing_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "anim-marina-1.png",
+          "source_bounds": [
+            2143,
+            109,
+            2587,
+            1276
+          ],
+          "source_pose": "typing_1",
+          "source_index": 4
+        },
+        "typing_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "anim-marina-1.png",
+          "source_bounds": [
+            2649,
+            108,
+            3094,
+            1276
+          ],
+          "source_pose": "typing_2",
+          "source_index": 5
+        },
+        "seated_back_type_1": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            153
+          ],
+          "label_anchor": [
+            288,
+            129
+          ],
+          "silhouette_height": 423,
+          "source": "seated-back-marina.png",
+          "source_bounds": [
+            92,
+            118,
+            391,
+            744
+          ],
+          "source_pose": "seated_back_type_1",
+          "source_index": 0
+        },
+        "seated_back_type_2": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            159
+          ],
+          "label_anchor": [
+            288,
+            135
+          ],
+          "silhouette_height": 417,
+          "source": "seated-back-marina.png",
+          "source_bounds": [
+            563,
+            127,
+            854,
+            744
+          ],
+          "source_pose": "seated_back_type_2",
+          "source_index": 1
+        },
+        "seated_back_think": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            153
+          ],
+          "label_anchor": [
+            288,
+            129
+          ],
+          "silhouette_height": 423,
+          "source": "seated-back-marina.png",
+          "source_bounds": [
+            1027,
+            118,
+            1346,
+            744
+          ],
+          "source_pose": "seated_back_think",
+          "source_index": 2
+        },
+        "seated_back_recline": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            185
+          ],
+          "label_anchor": [
+            288,
+            161
+          ],
+          "silhouette_height": 391,
+          "source": "seated-back-marina.png",
+          "source_bounds": [
+            1493,
+            158,
+            1836,
+            737
+          ],
+          "source_pose": "seated_back_recline",
+          "source_index": 3
+        },
+        "run_1": {
+          "x": 0,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            182
+          ],
+          "label_anchor": [
+            288,
+            158
+          ],
+          "silhouette_height": 394,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            141,
+            25,
+            452,
+            389
+          ],
+          "source_pose": "run_1",
+          "source_index": 0,
+          "source_scale": 1.0954773869346734
+        },
+        "run_2": {
+          "x": 576,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            184
+          ],
+          "label_anchor": [
+            288,
+            160
+          ],
+          "silhouette_height": 392,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            564,
+            27,
+            892,
+            389
+          ],
+          "source_pose": "run_2",
+          "source_index": 1,
+          "source_scale": 1.0954773869346734
+        },
+        "run_3": {
+          "x": 1152,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            179
+          ],
+          "label_anchor": [
+            288,
+            155
+          ],
+          "silhouette_height": 397,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            1006,
+            23,
+            1314,
+            389
+          ],
+          "source_pose": "run_3",
+          "source_index": 2,
+          "source_scale": 1.0954773869346734
+        },
+        "run_4": {
+          "x": 1728,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            172
+          ],
+          "label_anchor": [
+            288,
+            148
+          ],
+          "silhouette_height": 404,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            1457,
+            20,
+            1733,
+            394
+          ],
+          "source_pose": "run_4",
+          "source_index": 3,
+          "source_scale": 1.0954773869346734
+        },
+        "scene_angry": {
+          "x": 2304,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            145
+          ],
+          "label_anchor": [
+            288,
+            121
+          ],
+          "silhouette_height": 431,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            165,
+            401,
+            397,
+            798
+          ],
+          "source_pose": "scene_angry",
+          "source_index": 4,
+          "source_scale": 1.0954773869346734
+        },
+        "scene_sweep": {
+          "x": 2880,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            144
+          ],
+          "label_anchor": [
+            288,
+            120
+          ],
+          "silhouette_height": 432,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            635,
+            400,
+            905,
+            799
+          ],
+          "source_pose": "scene_sweep",
+          "source_index": 5,
+          "source_scale": 1.0954773869346734
+        },
+        "scene_carry": {
+          "x": 0,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            143
+          ],
+          "label_anchor": [
+            288,
+            119
+          ],
+          "silhouette_height": 433,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            1057,
+            401,
+            1314,
+            800
+          ],
+          "source_pose": "scene_carry",
+          "source_index": 6,
+          "source_scale": 1.0954773869346734
+        },
+        "scene_happy": {
+          "x": 576,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            140
+          ],
+          "label_anchor": [
+            288,
+            116
+          ],
+          "silhouette_height": 436,
+          "source": "scene-marina-pot.png",
+          "source_bounds": [
+            1541,
+            401,
+            1740,
+            803
+          ],
+          "source_pose": "scene_happy",
+          "source_index": 7,
+          "source_scale": 1.0954773869346734
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "98160cf8736f1c1584c68b40e15d6bb20b7d0a56aa3d3dd8eeb3ba86fcc6c971",
+      "note": "",
+      "animation_source": "anim-marina-1.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "008b920d525e882e780d3b47b4bf0dfd60b061564bed2ef94a928851a509bb08",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "typing": [
+        "typing_1",
+        "typing_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Selected OFFICE-16 walk2; original four leg phases, common scale and foot baseline."
+      },
+      "walk_source": "walk2-marina-1.png",
+      "walk_source_sha256": "05dfbfa09d0f5167a341e6adf67af058ce79c666c5c63cac721209262e3ffe63",
+      "seated_back": [
+        "seated_back_type_1",
+        "seated_back_type_2",
+        "seated_back_think",
+        "seated_back_recline"
+      ],
+      "seated_back_source": {
+        "file": "seated-back-marina.png",
+        "size": [
+          1916,
+          821
+        ],
+        "sha256": "863fbb7973e8599576b685d0775a54b4f70deeb78418bb9ea9e8bb0eb028b557",
+        "scale": 0.6757843925985519,
+        "reference": "same hero standing work head/shoulders; uniform source scale across all four cells"
+      },
+      "run_cycle": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4"
+      ],
+      "scene_poses": [
+        "scene_angry",
+        "scene_sweep",
+        "scene_carry",
+        "scene_happy"
+      ],
+      "scene_source": "scene-marina-pot.png",
+      "scene_source_sha256": "dff213a314b7a6ada4bc6f9ab7a1695c2fcb4ace243f3f215ae778193611236a",
+      "scene_normalization": {
+        "reference_pose": "scene_happy",
+        "reference_height": 436,
+        "source_scale": 1.0954773869346734,
+        "reason": "One scale for all eight source poses, normalized by standing human or seated cat body height. Raised tails and upright swipe retain their true pose height."
+      }
+    },
+    "korzhik": {
+      "name": "Коржик",
+      "image": "korzhik.png",
+      "source": "hero-korzhik-2.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "hero-korzhik-2.png",
+          "source_bounds": [
+            174,
+            248,
+            709,
+            1146
+          ],
+          "source_pose": "sit",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            415
+          ],
+          "label_anchor": [
+            288,
+            391
+          ],
+          "silhouette_height": 161,
+          "source": "hero-korzhik-2.png",
+          "source_bounds": [
+            820,
+            150,
+            1459,
+            1156
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            447
+          ],
+          "label_anchor": [
+            288,
+            423
+          ],
+          "silhouette_height": 129,
+          "source": "hero-korzhik-2.png",
+          "source_bounds": [
+            1578,
+            353,
+            2243,
+            1156
+          ],
+          "source_pose": "lie",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            483
+          ],
+          "label_anchor": [
+            288,
+            459
+          ],
+          "silhouette_height": 93,
+          "source": "hero-korzhik-2.png",
+          "source_bounds": [
+            2325,
+            507,
+            3057,
+            1086
+          ],
+          "source_pose": "sleep",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            413
+          ],
+          "label_anchor": [
+            288,
+            389
+          ],
+          "silhouette_height": 163,
+          "source": "walk2-korzhik-1.png",
+          "source_bounds": [
+            143,
+            151,
+            767,
+            1164
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            417
+          ],
+          "label_anchor": [
+            288,
+            393
+          ],
+          "silhouette_height": 159,
+          "source": "walk2-korzhik-1.png",
+          "source_bounds": [
+            820,
+            151,
+            1459,
+            1135
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            413
+          ],
+          "label_anchor": [
+            288,
+            389
+          ],
+          "silhouette_height": 163,
+          "source": "walk2-korzhik-1.png",
+          "source_bounds": [
+            1579,
+            151,
+            2276,
+            1165
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            418
+          ],
+          "label_anchor": [
+            288,
+            394
+          ],
+          "silhouette_height": 158,
+          "source": "walk2-korzhik-1.png",
+          "source_bounds": [
+            2387,
+            219,
+            3020,
+            1196
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "tail_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "anim-korzhik-2.png",
+          "source_bounds": [
+            1076,
+            718,
+            1484,
+            1282
+          ],
+          "source_pose": "tail_1",
+          "source_index": 4
+        },
+        "tail_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "anim-korzhik-2.png",
+          "source_bounds": [
+            1608,
+            718,
+            2018,
+            1283
+          ],
+          "source_pose": "tail_2",
+          "source_index": 5
+        },
+        "wash": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "cat-poses-korzhik-2.png",
+          "source_bounds": [
+            174,
+            250,
+            738,
+            1147
+          ],
+          "source_pose": "wash",
+          "source_index": 0
+        },
+        "cat_stretch": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            405
+          ],
+          "label_anchor": [
+            288,
+            381
+          ],
+          "silhouette_height": 171,
+          "source": "cat-poses-korzhik-2.png",
+          "source_bounds": [
+            813,
+            92,
+            1535,
+            1156
+          ],
+          "source_pose": "cat_stretch",
+          "source_index": 1
+        },
+        "belly": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            429
+          ],
+          "label_anchor": [
+            288,
+            405
+          ],
+          "silhouette_height": 147,
+          "source": "cat-poses-korzhik-2.png",
+          "source_bounds": [
+            1594,
+            243,
+            2379,
+            1156
+          ],
+          "source_pose": "belly",
+          "source_index": 2
+        },
+        "window": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            431
+          ],
+          "label_anchor": [
+            288,
+            407
+          ],
+          "silhouette_height": 145,
+          "source": "cat-poses-korzhik-2.png",
+          "source_bounds": [
+            2461,
+            250,
+            3034,
+            1156
+          ],
+          "source_pose": "window",
+          "source_index": 3
+        },
+        "run_1": {
+          "x": 0,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            489
+          ],
+          "label_anchor": [
+            288,
+            465
+          ],
+          "silhouette_height": 87,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            50,
+            105,
+            483,
+            312
+          ],
+          "source_pose": "run_1",
+          "source_index": 0,
+          "source_scale": 0.43243243243243246
+        },
+        "run_2": {
+          "x": 576,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            481
+          ],
+          "label_anchor": [
+            288,
+            457
+          ],
+          "silhouette_height": 95,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            516,
+            99,
+            900,
+            323
+          ],
+          "source_pose": "run_2",
+          "source_index": 1,
+          "source_scale": 0.43243243243243246
+        },
+        "run_3": {
+          "x": 1152,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            485
+          ],
+          "label_anchor": [
+            288,
+            461
+          ],
+          "silhouette_height": 91,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            970,
+            114,
+            1385,
+            329
+          ],
+          "source_pose": "run_3",
+          "source_index": 2,
+          "source_scale": 0.43243243243243246
+        },
+        "run_4": {
+          "x": 1728,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            471
+          ],
+          "label_anchor": [
+            288,
+            447
+          ],
+          "silhouette_height": 105,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            1479,
+            76,
+            1862,
+            323
+          ],
+          "source_pose": "run_4",
+          "source_index": 3,
+          "source_scale": 0.43243243243243246
+        },
+        "scene_crouch": {
+          "x": 2304,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            430
+          ],
+          "label_anchor": [
+            288,
+            406
+          ],
+          "silhouette_height": 146,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            108,
+            385,
+            444,
+            727
+          ],
+          "source_pose": "scene_crouch",
+          "source_index": 4,
+          "source_scale": 0.43243243243243246
+        },
+        "scene_jump": {
+          "x": 2880,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            475
+          ],
+          "label_anchor": [
+            288,
+            451
+          ],
+          "silhouette_height": 101,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            485,
+            418,
+            974,
+            656
+          ],
+          "source_pose": "scene_jump",
+          "source_index": 5,
+          "source_scale": 0.43243243243243246
+        },
+        "scene_swipe": {
+          "x": 0,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            410
+          ],
+          "label_anchor": [
+            288,
+            386
+          ],
+          "silhouette_height": 166,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            1028,
+            375,
+            1313,
+            763
+          ],
+          "source_pose": "scene_swipe",
+          "source_index": 6,
+          "source_scale": 0.43243243243243246,
+          "source_mask": "Manual cat-only contact trace; pot, shelf, soil and leaves excluded.",
+          "source_mask_polygon": [
+            [
+              0,
+              0
+            ],
+            [
+              1280,
+              0
+            ],
+            [
+              1280,
+              420
+            ],
+            [
+              1296,
+              424
+            ],
+            [
+              1307,
+              429
+            ],
+            [
+              1310,
+              436
+            ],
+            [
+              1307,
+              444
+            ],
+            [
+              1300,
+              448
+            ],
+            [
+              1300,
+              458
+            ],
+            [
+              1296,
+              465
+            ],
+            [
+              1288,
+              473
+            ],
+            [
+              1282,
+              486
+            ],
+            [
+              1280,
+              821
+            ],
+            [
+              0,
+              821
+            ]
+          ]
+        },
+        "scene_guilty": {
+          "x": 576,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "scene-korzhik-run.png",
+          "source_bounds": [
+            1520,
+            425,
+            1733,
+            762
+          ],
+          "source_pose": "scene_guilty",
+          "source_index": 7,
+          "source_scale": 0.43243243243243246
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "b8d8fa010037bfc2fd72168edaf707e0d91afad90eb980374e0f5a4bce740cd4",
+      "note": "",
+      "animation_source": "anim-korzhik-2.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "c55a100731afc1edd11834bebf0eb045e0d2a405f6412bf14fe0f37c19e1799f",
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "tail": [
+        "tail_1",
+        "tail_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Selected OFFICE-16 walk2; original four leg phases, common scale and foot baseline."
+      },
+      "activity_source": "cat-poses-korzhik-2.png",
+      "activity_source_size": [
+        3168,
+        1344
+      ],
+      "walk_source": "walk2-korzhik-1.png",
+      "walk_source_sha256": "911ca625d1f1bb9b3aa69f49aa97defc4ba2652694ae0538fde1759416bee2a2",
+      "run_cycle": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4"
+      ],
+      "scene_poses": [
+        "scene_crouch",
+        "scene_jump",
+        "scene_swipe",
+        "scene_guilty"
+      ],
+      "scene_source": "scene-korzhik-run.png",
+      "scene_source_sha256": "72cf437154e068b1784205ced068d48c5aa794cdd3122acf603593cd835032a2",
+      "scene_normalization": {
+        "reference_pose": "scene_guilty",
+        "reference_height": 144,
+        "source_scale": 0.43243243243243246,
+        "reason": "One scale for all eight source poses, normalized by standing human or seated cat body height. Raised tails and upright swipe retain their true pose height."
+      }
+    },
+    "masyanya": {
+      "name": "Масяня",
+      "image": "masyanya.png",
+      "source": "hero-masyanya-v2-1.png",
+      "frames": {
+        "work": {
+          "x": 0,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "hero-masyanya-v2-1.png",
+          "source_bounds": [
+            126,
+            242,
+            623,
+            1082
+          ],
+          "source_pose": "sit",
+          "source_index": 0
+        },
+        "walk": {
+          "x": 576,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            433
+          ],
+          "label_anchor": [
+            288,
+            409
+          ],
+          "silhouette_height": 143,
+          "source": "hero-masyanya-v2-1.png",
+          "source_bounds": [
+            701,
+            233,
+            1598,
+            1070
+          ],
+          "source_pose": "walk",
+          "source_index": 1
+        },
+        "stretch": {
+          "x": 1152,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            434
+          ],
+          "label_anchor": [
+            288,
+            410
+          ],
+          "silhouette_height": 142,
+          "source": "hero-masyanya-v2-1.png",
+          "source_bounds": [
+            1716,
+            320,
+            2300,
+            1150
+          ],
+          "source_pose": "lie",
+          "source_index": 2
+        },
+        "cup": {
+          "x": 1728,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            484
+          ],
+          "label_anchor": [
+            288,
+            460
+          ],
+          "silhouette_height": 92,
+          "source": "hero-masyanya-v2-1.png",
+          "source_bounds": [
+            2373,
+            457,
+            3045,
+            996
+          ],
+          "source_pose": "sleep",
+          "source_index": 3
+        },
+        "walk_1": {
+          "x": 2304,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            433
+          ],
+          "label_anchor": [
+            288,
+            409
+          ],
+          "silhouette_height": 143,
+          "source": "walk2-masyanya-1.png",
+          "source_bounds": [
+            61,
+            286,
+            777,
+            981
+          ],
+          "source_pose": "walk_1",
+          "source_index": 0
+        },
+        "walk_2": {
+          "x": 2880,
+          "y": 0,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "walk2-masyanya-1.png",
+          "source_bounds": [
+            861,
+            283,
+            1547,
+            981
+          ],
+          "source_pose": "walk_2",
+          "source_index": 1
+        },
+        "walk_3": {
+          "x": 0,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            434
+          ],
+          "label_anchor": [
+            288,
+            410
+          ],
+          "silhouette_height": 142,
+          "source": "walk2-masyanya-1.png",
+          "source_bounds": [
+            1613,
+            284,
+            2329,
+            974
+          ],
+          "source_pose": "walk_3",
+          "source_index": 2
+        },
+        "walk_4": {
+          "x": 576,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            433
+          ],
+          "label_anchor": [
+            288,
+            409
+          ],
+          "silhouette_height": 143,
+          "source": "walk2-masyanya-1.png",
+          "source_bounds": [
+            2419,
+            283,
+            3105,
+            976
+          ],
+          "source_pose": "walk_4",
+          "source_index": 3
+        },
+        "tail_1": {
+          "x": 1152,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "anim-masyanya-v2-1.png",
+          "source_bounds": [
+            1442,
+            753,
+            1908,
+            1278
+          ],
+          "source_pose": "tail_1",
+          "source_index": 5
+        },
+        "tail_2": {
+          "x": 1728,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "anim-masyanya-v2-1.png",
+          "source_bounds": [
+            2398,
+            753,
+            2912,
+            1278
+          ],
+          "source_pose": "tail_2",
+          "source_index": 6
+        },
+        "wash": {
+          "x": 2304,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "cat-poses-masyanya-v2-1.png",
+          "source_bounds": [
+            167,
+            324,
+            739,
+            1111
+          ],
+          "source_pose": "wash",
+          "source_index": 0
+        },
+        "cat_stretch": {
+          "x": 2880,
+          "y": 600,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            390
+          ],
+          "label_anchor": [
+            288,
+            366
+          ],
+          "silhouette_height": 186,
+          "source": "cat-poses-masyanya-v2-1.png",
+          "source_bounds": [
+            777,
+            162,
+            1563,
+            1178
+          ],
+          "source_pose": "cat_stretch",
+          "source_index": 1
+        },
+        "belly": {
+          "x": 0,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            410
+          ],
+          "label_anchor": [
+            288,
+            386
+          ],
+          "silhouette_height": 166,
+          "source": "cat-poses-masyanya-v2-1.png",
+          "source_bounds": [
+            1599,
+            265,
+            2338,
+            1170
+          ],
+          "source_pose": "belly",
+          "source_index": 2
+        },
+        "window": {
+          "x": 576,
+          "y": 1200,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            404
+          ],
+          "label_anchor": [
+            288,
+            380
+          ],
+          "silhouette_height": 172,
+          "source": "cat-poses-masyanya-v2-1.png",
+          "source_bounds": [
+            2374,
+            243,
+            2967,
+            1185
+          ],
+          "source_pose": "window",
+          "source_index": 3
+        },
+        "run_1": {
+          "x": 0,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            487
+          ],
+          "label_anchor": [
+            288,
+            463
+          ],
+          "silhouette_height": 89,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            19,
+            125,
+            522,
+            324
+          ],
+          "source_pose": "run_1",
+          "source_index": 0,
+          "source_scale": 0.45714285714285713
+        },
+        "run_2": {
+          "x": 576,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            474
+          ],
+          "label_anchor": [
+            288,
+            450
+          ],
+          "silhouette_height": 102,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            523,
+            123,
+            943,
+            352
+          ],
+          "source_pose": "run_2",
+          "source_index": 1,
+          "source_scale": 0.45714285714285713
+        },
+        "run_3": {
+          "x": 1152,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            471
+          ],
+          "label_anchor": [
+            288,
+            447
+          ],
+          "silhouette_height": 105,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            972,
+            115,
+            1410,
+            348
+          ],
+          "source_pose": "run_3",
+          "source_index": 2,
+          "source_scale": 0.45714285714285713
+        },
+        "run_4": {
+          "x": 1728,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            479
+          ],
+          "label_anchor": [
+            288,
+            455
+          ],
+          "silhouette_height": 97,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            1426,
+            126,
+            1878,
+            343
+          ],
+          "source_pose": "run_4",
+          "source_index": 3,
+          "source_scale": 0.45714285714285713
+        },
+        "scene_crouch": {
+          "x": 2304,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            437
+          ],
+          "label_anchor": [
+            288,
+            413
+          ],
+          "silhouette_height": 139,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            109,
+            394,
+            446,
+            703
+          ],
+          "source_pose": "scene_crouch",
+          "source_index": 4,
+          "source_scale": 0.45714285714285713
+        },
+        "scene_jump": {
+          "x": 2880,
+          "y": 1800,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            461
+          ],
+          "label_anchor": [
+            288,
+            437
+          ],
+          "silhouette_height": 115,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            489,
+            427,
+            1005,
+            683
+          ],
+          "source_pose": "scene_jump",
+          "source_index": 5,
+          "source_scale": 0.45714285714285713
+        },
+        "scene_swipe": {
+          "x": 0,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            403
+          ],
+          "label_anchor": [
+            288,
+            379
+          ],
+          "silhouette_height": 173,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            1095,
+            369,
+            1417,
+            753
+          ],
+          "source_pose": "scene_swipe",
+          "source_index": 6,
+          "source_scale": 0.45714285714285713
+        },
+        "scene_guilty": {
+          "x": 576,
+          "y": 2400,
+          "w": 576,
+          "h": 600,
+          "foot": [
+            288,
+            576
+          ],
+          "head": [
+            288,
+            432
+          ],
+          "label_anchor": [
+            288,
+            408
+          ],
+          "silhouette_height": 144,
+          "source": "scene-masyanya-run.png",
+          "source_bounds": [
+            1556,
+            425,
+            1806,
+            744
+          ],
+          "source_pose": "scene_guilty",
+          "source_index": 7,
+          "source_scale": 0.45714285714285713
+        }
+      },
+      "source_size": [
+        3168,
+        1344
+      ],
+      "source_sha256": "b3681d2c4d4792e5b8b35d9b9a30043841b1a45abb310639228e44845a3be536",
+      "note": "",
+      "animation_source": "anim-masyanya-v2-1.png",
+      "animation_source_size": [
+        3168,
+        1344
+      ],
+      "animation_source_sha256": "206817be842d130dbe797861e9bad86c6717c6bf2cdf85fd932b1e55e23ce1d5",
+      "excluded_animation_source_indices": [
+        4
+      ],
+      "walk_cycle": [
+        "walk_1",
+        "walk_2",
+        "walk_3",
+        "walk_4"
+      ],
+      "tail": [
+        "tail_1",
+        "tail_2"
+      ],
+      "walk_review": {
+        "status": "accepted",
+        "reason": "Selected OFFICE-16 walk2; original four leg phases, common scale and foot baseline."
+      },
+      "activity_source": "cat-poses-masyanya-v2-1.png",
+      "activity_source_size": [
+        3168,
+        1344
+      ],
+      "walk_source": "walk2-masyanya-1.png",
+      "walk_source_sha256": "a3237557b82e5e64551625dbd599b27674d2369747736d10992b3cdb2470b67e",
+      "run_cycle": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4"
+      ],
+      "scene_poses": [
+        "scene_crouch",
+        "scene_jump",
+        "scene_swipe",
+        "scene_guilty"
+      ],
+      "scene_source": "scene-masyanya-run.png",
+      "scene_source_sha256": "e2bf250e52f71e2207661eb38f7d489be3852fa97b4f8b06a9cd8c5a08894fb7",
+      "scene_normalization": {
+        "reference_pose": "scene_guilty",
+        "reference_height": 144,
+        "source_scale": 0.45714285714285713,
+        "reason": "One scale for all eight source poses, normalized by standing human or seated cat body height. Raised tails and upright swipe retain their true pose height."
+      }
+    }
+  },
+  "cat_poses": [
+    "sit",
+    "walk",
+    "lie",
+    "sleep",
+    "wash",
+    "cat_stretch",
+    "belly",
+    "window"
+  ],
+  "pot_props": {
+    "whole": {
+      "image": "pot-whole.png",
+      "w": 339,
+      "h": 370,
+      "pixel_ratio": 6,
+      "anchor": [
+        169,
+        362
+      ],
+      "source": "props-pot.png",
+      "source_bounds": [
+        57,
+        246,
+        385,
+        606
+      ],
+      "padding": 8,
+      "magenta_pixels": 0
+    },
+    "falling": {
+      "image": "pot-falling.png",
+      "w": 368,
+      "h": 407,
+      "pixel_ratio": 6,
+      "anchor": [
+        184,
+        399
+      ],
+      "source": "props-pot.png",
+      "source_bounds": [
+        485,
+        238,
+        841,
+        633
+      ],
+      "padding": 8,
+      "magenta_pixels": 0
+    },
+    "broken": {
+      "image": "pot-broken.png",
+      "w": 573,
+      "h": 365,
+      "pixel_ratio": 6,
+      "anchor": [
+        286,
+        357
+      ],
+      "source": "props-pot.png",
+      "source_bounds": [
+        863,
+        324,
+        1424,
+        677
+      ],
+      "padding": 8,
+      "magenta_pixels": 0
+    },
+    "broom": {
+      "image": "pot-broom.png",
+      "w": 340,
+      "h": 564,
+      "pixel_ratio": 6,
+      "anchor": [
+        170,
+        556
+      ],
+      "source": "props-pot.png",
+      "source_bounds": [
+        1529,
+        109,
+        1857,
+        662
+      ],
+      "padding": 8,
+      "magenta_pixels": 0
+    }
+  },
+  "pizza_props": {
+    "closed": {
+      "image": "pizza-closed.png",
+      "w": 288,
+      "h": 218,
+      "pixel_ratio": 6,
+      "anchor": [
+        144,
+        210
+      ],
+      "padding": 8,
+      "source": "props-pizza.png",
+      "source_bounds": [
+        75,
+        330,
+        508,
+        652
+      ],
+      "source_scale": 0.6285785350080835
+    },
+    "open": {
+      "image": "pizza-open.png",
+      "w": 301,
+      "h": 349,
+      "pixel_ratio": 6,
+      "anchor": [
+        150,
+        341
+      ],
+      "padding": 8,
+      "source": "props-pizza.png",
+      "source_bounds": [
+        554,
+        122,
+        1008,
+        652
+      ],
+      "source_scale": 0.6285785350080835
+    },
+    "slice": {
+      "image": "pizza-slice.png",
+      "w": 165,
+      "h": 174,
+      "pixel_ratio": 6,
+      "anchor": [
+        82,
+        166
+      ],
+      "padding": 8,
+      "source": "props-pizza.png",
+      "source_bounds": [
+        1086,
+        379,
+        1323,
+        630
+      ],
+      "source_scale": 0.6285785350080835
+    },
+    "last": {
+      "image": "pizza-last.png",
+      "w": 301,
+      "h": 349,
+      "pixel_ratio": 6,
+      "anchor": [
+        150,
+        341
+      ],
+      "padding": 8,
+      "source": "props-pizza.png",
+      "source_bounds": [
+        1381,
+        122,
+        1835,
+        652
+      ],
+      "source_scale": 0.6285785350080835
+    }
+  },
+  "owner_night_props": {
+    "back": {
+      "image": "owner-mattress-back.png",
+      "width": 598,
+      "height": 451,
+      "source": "office24/owner-mattress.png",
+      "source_bounds": [
+        25,
+        230,
+        623,
+        681
+      ]
+    },
+    "side": {
+      "image": "owner-mattress-side.png",
+      "width": 493,
+      "height": 456,
+      "source": "office24/owner-mattress.png",
+      "source_bounds": [
+        564,
+        196,
+        1057,
+        652
+      ]
+    },
+    "rolled": {
+      "image": "owner-mattress-rolled.png",
+      "width": 330,
+      "height": 239,
+      "source": "office24/owner-mattress.png",
+      "source_bounds": [
+        1088,
+        362,
+        1418,
+        601
+      ]
+    },
+    "carry": {
+      "image": "owner-mattress-carry.png",
+      "width": 340,
+      "height": 581,
+      "source": "office24/owner-mattress.png",
+      "source_bounds": [
+        1504,
+        107,
+        1844,
+        688
+      ]
+    }
+  }
+}

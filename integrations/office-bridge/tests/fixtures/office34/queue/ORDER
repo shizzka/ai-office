@@ -1,0 +1,30 @@
+# блок|имя|тип   (dev — Лёха на ветке + регрессия + критик Ася; qa — Ася пишет приёмку; pause — стоп до ревью архитектора)
+B|FIX-5|dev
+B|UI-GUARD-1|dev
+B|UI-GUARD-1-R1|dev
+B|FIX-5-R1|dev
+B|SHIELD-READ-1|dev
+B|SHIELD-READ-2|dev
+B|STACK-R1|dev
+B|GATE-REF-1|dev
+# GATE-LOCAL-1 остановлен; продолжение по решению владельца: GATE-LOCAL-2
+B|GATE-LOCAL-2|dev
+B|SHIELD-VIS-1|dev
+B|SM-HOTFIX-1|dev
+B|FIX-DATA-1|dev
+B|SHIELD-PERF-1|dev
+B|SHIELD-MARK-1|dev
+B|SHIELD-MOBILE-1|dev
+B|CAT-IMPORT-1|dev
+B|SHIELD-BUNDLE-1|dev
+B|SHIELD-DOC-1|dev
+B|SHIELD-SIM-1|dev
+# 06.11: перед PREFLIGHT-0 архитектор вливает dev в стопку (в стопке нет docs/PREFLIGHT.md и документов второго ИИ)
+B|PREFLIGHT-0|dev
+B|PREFLIGHT-1|dev
+B|PREFLIGHT-2|dev
+B|PREFLIGHT-2B|dev
+B|PREFLIGHT-3|dev
+B|PREFLIGHT-4|dev
+B|QA-SPEC-1|qa
+B|UI-GUARD-2|dev

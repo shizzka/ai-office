@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 960,
+    "height": 600,
+    "coordinates": "pixels from top left; +x right, +y down"
+  },
+  "hero_anchor": {
+    "meaning": "PixelOffice agent container position",
+    "container_scale": 0.9,
+    "sprite_offset_y": -20,
+    "sprite_pivot": [
+      20,
+      60
+    ],
+    "feet_offset_from_anchor": [
+      0,
+      -18
+    ],
+    "note": "Graphics: 40×60 at 0.9. Atlas: 64×96 at 0.9 (×1.6); fixed feet at anchor y−18. Annotations have independent positions.",
+    "atlas_frame": [
+      64,
+      96
+    ],
+    "atlas_foot_anchor": [
+      32,
+      93
+    ]
+  },
+  "heroes": {
+    "Ярик": {
+      "x": 73,
+      "y": 318,
+      "zone": "DCM Lab"
+    },
+    "Лёха": {
+      "x": 229,
+      "y": 318,
+      "zone": "DCM Lab"
+    },
+    "Ася": {
+      "x": 385,
+      "y": 318,
+      "zone": "DCM Lab"
+    },
+    "Иваныч": {
+      "x": 73,
+      "y": 485,
+      "zone": "DCM Lab"
+    },
+    "Тая": {
+      "x": 229,
+      "y": 485,
+      "zone": "DCM Lab"
+    },
+    "Саня": {
+      "x": 877,
+      "y": 485,
+      "zone": "у двери / тестирование"
+    },
+    "Мотя": {
+      "x": 850,
+      "y": 245,
+      "zone": "Сервер"
+    },
+    "whoami": {
+      "x": 385,
+      "y": 485,
+      "zone": "Инфобез"
+    }
+  },
+  "destinations": {
+    "cooler": {
+      "x": 735,
+      "y": 310
+    },
+    "kitchen": {
+      "x": 680,
+      "y": 310
+    }
+  },
+  "walkways": {
+    "description": "Suggested centre-line graph; route via the graph, not straight through furniture. Points use the same container anchor convention as heroes.",
+    "nodes": {
+      "left_top": [
+        145,
+        405
+      ],
+      "middle_top": [
+        475,
+        405
+      ],
+      "right_top": [
+        805,
+        405
+      ],
+      "left_bottom": [
+        145,
+        575
+      ],
+      "middle_bottom": [
+        475,
+        575
+      ],
+      "right_bottom": [
+        805,
+        575
+      ],
+      "kitchen": [
+        735,
+        310
+      ],
+      "server": [
+        850,
+        245
+      ]
+    },
+    "edges": [
+      [
+        "left_top",
+        "middle_top"
+      ],
+      [
+        "middle_top",
+        "right_top"
+      ],
+      [
+        "left_top",
+        "left_bottom"
+      ],
+      [
+        "middle_top",
+        "middle_bottom"
+      ],
+      [
+        "right_top",
+        "right_bottom"
+      ],
+      [
+        "left_bottom",
+        "middle_bottom"
+      ],
+      [
+        "middle_bottom",
+        "right_bottom"
+      ],
+      [
+        "right_top",
+        "kitchen"
+      ],
+      [
+        "right_top",
+        "server"
+      ]
+    ],
+    "note": "Desk access joins the nearest corridor through the open space between desk legs. Keep the sprite footprint clear; route from the server around the right side of the cooler. The bed sits at (497,220), outside the central corridor. Dynamic agents need collision-aware routing."
+  },
+  "live_objects": {
+    "panel": {
+      "x": 257,
+      "y": 49,
+      "width": 75,
+      "height": 90,
+      "variants": {
+        "green": "/office-loft/panel-green.png",
+        "red": "/office-loft/panel-red.png",
+        "red_off": "/office-loft/panel-red-off.png"
+      },
+      "note": "Blink between red and red_off; in both frames the same breaker stays tripped."
+    },
+    "rack_lights": {
+      "x": 858,
+      "y": 60,
+      "width": 11,
+      "height": 76,
+      "frames": [
+        "/office-loft/rack-lights-0.png",
+        "/office-loft/rack-lights-1.png"
+      ]
+    },
+    "window": {
+      "x": 362,
+      "y": 30,
+      "width": 236,
+      "height": 106,
+      "rain": [
+        "/office-loft/window-rain-0.png",
+        "/office-loft/window-rain-1.png"
+      ],
+      "gulls": [
+        "/office-loft/window-gulls-0.png",
+        "/office-loft/window-gulls-1.png"
+      ],
+      "note": "Transparent overlays; choose no overlay for clear weather."
+    },
+    "llama": {
+      "x": 99,
+      "y": 247,
+      "width": 20,
+      "height": 27,
+      "image": "/office-loft/llama.png",
+      "note": "Place over background next to architect monitor; optional animation controlled by consumer."
+    }
+  },
+  "zone_labels": [
+    {
+      "text": "DCM Lab",
+      "x": 22,
+      "y": 11
+    },
+    {
+      "text": "job-hunter",
+      "x": 626,
+      "y": 11
+    },
+    {
+      "text": "Сервер",
+      "x": 789,
+      "y": 11
+    },
+    {
+      "text": "Инфобез",
+      "x": 340,
+      "y": 176
+    },
+    {
+      "text": "Кухня",
+      "x": 665,
+      "y": 176
+    }
+  ],
+  "foreground_desks": [
+    {
+      "x": 20,
+      "y": 285,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 176,
+      "y": 285,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 332,
+      "y": 285,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 20,
+      "y": 452,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 176,
+      "y": 452,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 332,
+      "y": 452,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 514,
+      "y": 452,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 684,
+      "y": 452,
+      "width": 111,
+      "height": 16
+    },
+    {
+      "x": 826,
+      "y": 452,
+      "width": 111,
+      "height": 16
+    }
+  ]
+}

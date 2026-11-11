@@ -1,0 +1,19 @@
+[Unit]
+Description=DCM queue watcher and private Telegram control panel
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/q/work/office-bridge
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=TZ=Europe/Moscow
+EnvironmentFile=-/home/q/.config/dcm-ops.env
+ExecStart=/usr/bin/python3 -u /home/q/work/office-bridge/ops_watch.py --interval 60
+Restart=always
+RestartSec=10
+TimeoutStopSec=10
+NoNewPrivileges=yes
+UMask=0077
+
+[Install]
+WantedBy=default.target

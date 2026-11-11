@@ -1,0 +1,171 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d27;
+  --bg-tertiary: #252836;
+  --bg-card: #2a2d3a;
+  --border-color: #363a4a;
+  --text-primary: #e4e6f0;
+  --text-secondary: #9ba1b5;
+  --accent: #6c5ce7;
+  --accent-hover: #7c6ef7;
+  --green: #00b894;
+  --yellow: #fdcb6e;
+  --red: #e17055;
+  --blue: #0984e3;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Pixel font for headings */
+@font-face {
+  font-family: "PixelFont";
+  src: local("Courier New");
+  font-display: swap;
+}
+
+.pixel-text {
+  font-family: "PixelFont", "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+/* Priority colors */
+.priority-low {
+  border-left-color: var(--blue);
+}
+.priority-medium {
+  border-left-color: var(--yellow);
+}
+.priority-high {
+  border-left-color: #e17055;
+}
+.priority-urgent {
+  border-left-color: var(--red);
+}
+
+/* Status dot animations */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.status-working {
+  color: var(--green);
+  animation: pulse 2s ease-in-out infinite;
+}
+.status-thinking {
+  color: var(--yellow);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+.status-busy {
+  color: var(--red);
+  animation: pulse 1s ease-in-out infinite;
+}
+.status-idle {
+  color: var(--text-secondary);
+}
+.status-offline {
+  color: #555;
+}
+
+/* CRT Scanline Overlay */
+.crt-overlay {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.08) 0px,
+    rgba(0, 0, 0, 0.08) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: multiply;
+}
+
+.crt-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 60%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+/* Resizable divider handle */
+.resize-handle {
+  position: relative;
+  cursor: row-resize;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.resize-handle:hover {
+  background: var(--bg-tertiary);
+}
+.resize-handle::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--border-color);
+}
+
+
+@keyframes slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+.animate-slide-in {
+  animation: slide-in 0.2s ease-out;
+}
+nextjs-portal { display: none !important; }
+
+/* Bottom ticker scroll */
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-scroll {
+  display: flex;
+  animation: ticker-scroll 60s linear infinite;
+}
+.ticker-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Hide Next.js dev toolbar */
+nextjs-portal,
+[data-nextjs-dialog-overlay],
+[data-nextjs-toast] {
+  display: none !important;
+}
