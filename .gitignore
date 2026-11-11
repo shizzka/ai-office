@@ -28,3 +28,4 @@ next-env.d.ts
 output/*
 !output/office17-art-source-closure.json
 !output/office19-art-validation.json
+!integrations/office-bridge/tests/fixtures/**/*.log

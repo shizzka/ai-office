@@ -97,4 +97,4 @@ python3 -m pytest -q integrations/office-bridge/tests
 
 Для Python-проверок и проверки пикселей установите `python3 -m pip install -r requirements-test.txt`. Два JSON в `output/` — сохранённые отчёты проверки рисунков, необходимые тестам без исходных больших арт-листов; это не журналы рабочих проектов.
 
-Результаты проверок и известное ограничение production-сборки: [docs/VALIDATION.md](docs/VALIDATION.md). В исходной ESLint-конфигурации найден несовместимый импорт; компиляция приложения и отдельная проверка TypeScript проходят, полный production-build пока не подтверждён.
+Результаты проверок и известное ограничение production-сборки: [docs/VALIDATION.md](docs/VALIDATION.md). Production-сборка и отдельная проверка TypeScript проходят. Исходная ESLint-конфигурация выдаёт неблокирующую ошибку импорта; успешный lint пока не подтверждён.
